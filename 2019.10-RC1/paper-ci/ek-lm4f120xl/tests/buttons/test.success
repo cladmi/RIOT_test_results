@@ -1,0 +1,14 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-ek-lm4f120xl" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-ek-lm4f120xl
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+On-board button test
+
+ -- Available buttons: 2
+
+ -- Try pressing buttons to test.
+
+[SUCCESS]
+

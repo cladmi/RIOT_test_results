@@ -1,0 +1,19 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/pthread_tls test
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-msba2" -b "115200" -tg --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-msba2
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+START
+
+-= TEST 1 - create 20 tls with sequencial values 0...19 =-
+now rise sequencial by one values 1...20
+pick deliberate storage (key[3]:1073747656) and change the value
+#!data abort at 0x1028 (0xE5803000) originating from 0x1024 (0xE3A0302A) in mode 0x6000001F
+Timeout in expect script at "child.expect('show tls values:')" (tests/pthread_tls/tests/01-run.py:8)
+
+/srv/ilab-builds/workspace/git/RIOT/tests/pthread_tls/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

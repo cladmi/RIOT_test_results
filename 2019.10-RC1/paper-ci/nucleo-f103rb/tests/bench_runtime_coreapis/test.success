@@ -1,0 +1,27 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-nucleo-f103rb" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-nucleo-f103rb
+Welcome to pyterm!
+Type '/exit' to exit.
+        mutex lock/unlock: 4294930027us  ---  4294.930us per call  ---        232 calls per sec
+
+       thread_flags_set():     13052us  ---   0.013us per call  ---   76616610 calls per sec
+�main(): This is RIOT! (Version: 2019.10-RC1)
+Runtime of Selected Core API functions
+
+                 nop loop:     31687us  ---   0.031us per call  ---   31558683 calls per sec
+
+             mutex_init():         1us  ---   0.000us per call  ---  3567587328 calls per sec
+        mutex lock/unlock: 4294930027us  ---  4294.930us per call  ---        232 calls per sec
+
+       thread_flags_set():     13052us  ---   0.013us per call  ---   76616610 calls per sec
+     thread_flags_clear(): 4294922629us  ---  4294.922us per call  ---        232 calls per sec
+thread flags set/wait any:     31338us  ---   0.031us per call  ---   31910141 calls per sec
+thread flags set/wait all:      9632us  ---   0.009us per call  ---  103820598 calls per sec
+thread flags set/wait one:     45228us  ---   0.045us per call  ---   22110197 calls per sec
+
+        msg_try_receive(): 4294946080us  ---  4294.946us per call  ---        232 calls per sec
+              msg_avail(): 4294939101us  ---  4294.939us per call  ---        232 calls per sec
+
+[SUCCESS]
+

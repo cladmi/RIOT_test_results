@@ -1,0 +1,23 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-msba2" -b "115200" -tg --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-msba2
+Welcome to pyterm!
+Type '/exit' to exit.
+random: NO SEED AVAILABLE!
+main(): This is RIOT! (Version: 2019.10-RC1)
+[START]
+now = 61919, t = 58
+now = 144581, t = 77
+now = 420332, t = 227
+now = 837178, t = 394
+now = 1760024, t = 819
+[TRICKLE_RESET]
+now = 1772974, t = 11
+now = 1795814, t = 16
+now = 1857655, t = 44
+now = 1986494, t = 107
+now = 2261430, t = 252
+now = 2676364, t = 409
+now = 3685298, t = 904
+[SUCCESS]
+

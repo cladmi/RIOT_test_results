@@ -1,0 +1,34 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-k64f" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-k64f
+s.
+Welcome to pyterm!
+Type '/exit' to exit.
+[ALIVE] alternated 50k times.
+[ALIVE] alternated 60k times.
+[ALIVE] alternated 70k times.
+[ALIVE] alternated 80k times.
+[ALIVE] alternated 90k times.
+[ALIVE] alternated 100k times.
+[ALIVE] alternated 110k times.
+[ALIVE] alternated 120k times.
+[ALIVE] alternated 130k times.
+[ALIVE] alternated 140k times.
+[ALIVE] alternated 150k times.
+[ALIVE] alternatVE] alternated 10k times.
+[ALIVE] alternated 20k times.
+es.
+[ALI[ALIVE] alternated 30k times.
+[ALIVE] alternated 40k times.
+[ALIVE] alternated 50k times.
+[ALIVE] alternated 60k times.
+[ALIVE] alternated 70k times.
+[ALIVE] alternated 80k times.
+[ALIVE] alternated 90k times.
+[ALIVE] alternated 100k times.
+[ALIVE] alternated 110k times.
+[ALIVE] alternated 120k times.
+[ALIVE] alternated 130k times.
+[ALIVE] alternated 140k times.
+main(): This is RIOT! (Version: 2019.10-RC1)
+

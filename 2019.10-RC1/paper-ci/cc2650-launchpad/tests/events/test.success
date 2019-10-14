@@ -1,0 +1,21 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+10
+launching event queue 0x20000a10
+triggered delayed event 0x20000218
+triggered delayed event 0x20000220
+posting 0x20000228
+posting 0x20000230
+canceling 0x20000230
+posting custom event
+posting timed callback with timeout 1sec
+posting timed callback with timeout 0.5sec and canceling it again
+launching event queue
+triggered 0x20000228
+triggered custom event with text: "CUSTOM CALLBACK"
+triggered timed callback with arg 0x12345678 after 1000029us
+[SUCCESS]
+

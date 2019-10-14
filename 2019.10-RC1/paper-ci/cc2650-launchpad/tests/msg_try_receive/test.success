@@ -1,0 +1,15 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+nd 7
+Incremented counters to 8 and 8
+Incremented counters to 9 and 9
+Incremented counters to 10 and 10
+Test successful.
+main(): This is RIOT! (Version: 2019.10-RC1)
+main starting
+sending message...
+msg available: 1 (should be 1!)
+

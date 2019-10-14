@@ -1,0 +1,34 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/cond_order test
+ESP32_SDK_DIR should be defined as /path/to/esp-idf directory
+ESP32_SDK_DIR is set by default to /opt/esp/esp-idf
+r
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-esp32-wroom-32" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-esp32-wroom-32
+Welcome to pyterm!
+Type '/exit' to exit.
+READY
+s
+START
+T3 (prio 14): waiting on condition variable now
+T4 (prio 4): waiting on condition variable now
+T5 (prio 0): waiting on condition variable now
+T6 (prio 2): waiting on condition variable now
+T7 (prio 1): waiting on condition variable now
+First batch was signaled
+T5 (prio 0): condition variable was signaled now
+T7 (prio 1): condition variable was signaled now
+T6 (prio 2): condition variable was signaled now
+First batch has woken up
+Second batch was signaled
+T4 (prio 4): condition variable was signaled now
+T3 (prio 14): condition variable was signaled now
+Second batch has woken up
+
+Test END, check the order of priorities above.
+Timeout in expect script at "child.expect(u"T%i \(prio %i\): waiting on condition variable now" % (k, thread_prio[k]))" (tests/cond_order/tests/01-run.py:29)
+
+/srv/ilab-builds/workspace/git/RIOT/tests/cond_order/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

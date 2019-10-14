@@ -1,0 +1,12 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/shell test
+socat - open:/dev/riot/tty-mulle,b115200,echo=0,raw
+2019/10/12 07:55:05 socat[21860] E open("/dev/riot/tty-mulle", 02, 0666): No such file or directory
+/srv/ilab-builds/workspace/git/RIOT/Makefile.include:650: recipe for target 'cleanterm' failed
+make[1]: *** [cleanterm] Error 1
+Unexpected end of file in expect script at "child.expect('test_shell.')" (tests/shell/tests/01-run.py:67)
+
+Process already stopped
+/srv/ilab-builds/workspace/git/RIOT/tests/shell/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

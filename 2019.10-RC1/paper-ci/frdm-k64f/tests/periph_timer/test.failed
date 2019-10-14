@@ -1,0 +1,58 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/periph_timer test
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-k64f" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-k64f
+Welcome to pyterm!
+Type '/exit' to exit.
+MER_0: starting
+TIMER_0: channel 0 fired at SW count    23081 - init:    23081
+
+Testing TIMER_1:
+TIMER_1: initialization successful
+TIMER_1: stopped
+TIMER_1: set channel 0 to 5000
+TIMER_1: starting
+TIMER_1: channel 0 fired at SW count    23081 - init:    23081
+
+Testing TIMER_2:
+TIMER_2: ERROR on initialization - s on initialization - skipping
+
+
+TEST FAILED
+(Version: 2019.10-RC1)
+
+Test for peripheral TIMERs
+
+Available timers: 3
+
+Testing TIMmain(): This is RIOT! (Version: 2019.10-RC1)
+
+Test for peripheral TIMERs
+
+Available timers: 3
+
+Testing TIMER_0:
+TIMER_0: initialization successful
+TIMER_0: stopped
+TIMER_0: set channel 0 to 5000
+TIMER_0: starting
+TIMER_0: channel 0 fired at SW count    23081 - init:    23081
+
+Testing TIMER_1:
+TIMER_1: initialization successful
+TIMER_1: stopped
+TIMER_1: set channel 0 to 5000
+TIMER_1: starting
+TIMER_1: channel 0 fired at SW count    23081 - init:    23081
+
+Testing TIMER_2:
+TIMER_2: ERROR on initialization - skipping
+
+
+TEST FAILED
+Timeout in expect script at "child.expect_exact('TIMER_{}: initialization successful'.format(timer))" (tests/periph_timer/tests/01-run.py:18)
+
+/srv/ilab-builds/workspace/git/RIOT/tests/periph_timer/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

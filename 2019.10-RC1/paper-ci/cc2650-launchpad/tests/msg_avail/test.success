@@ -1,0 +1,40 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+udp_create6__only_remote()
+Calling test_sock_udp_create6__full()
+Calling test_sock_udp_recv6__EADDRNOTAVAIL()
+Calling test_sock_udp_recv6__EAGAIN()
+Calling test_sock_udp_recv6__ENOBUFS()
+Calling test_sock_udp_recv6__ETIMEDOUT()
+ * Calling sock_udp_recv()
+ * (timed out with timeout 1000000)
+Calling test_sock_udp_recv6__socketed()
+Calling test_sock_udp_recv6__socketed_with_remote()
+Calling test_sock_udp_recv6__socketed_with_port0()
+Calling test_sock_udp_recv6__unsocketed()
+Calling test_sock_udp_recv6__unsocketed_with_remote()
+Calling test_sock_udp_recv6__with_timeout()
+Calling test_sock_udp_recv6__non_blocking()
+Calling test_main(): This is RIOT! (Version: 2019.10-RC1)
+[START]
++ add msg: 0
++ add msg: 1
++ add msg: 2
++ add msg: 3
++ add msg: 4
++ add msg: 5
++ add msg: 6
++ add msg: 7
+- got msg: 0
+- got msg: 1
+- got msg: 2
+- got msg: 3
+- got msg: 4
+- got msg: 5
+- got msg: 6
+- got msg: 7
+[SUCCESS]
+

@@ -1,0 +1,26 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-msba2" -b "115200" -tg --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-msba2
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+
+Test for peripheral TIMERs
+
+Available timers: 1
+
+Testing TIMER_0:
+TIMER_0: initialization successful
+TIMER_0: stopped
+TIMER_0: set channel 0 to 5000
+TIMER_0: set channel 1 to 10000
+TIMER_0: set channel 2 to 15000
+TIMER_0: set channel 3 to 20000
+TIMER_0: starting
+TIMER_0: channel 0 fired at SW count    27690 - init:    27690
+TIMER_0: channel 1 fired at SW count    55356 - diff:    27666
+TIMER_0: channel 2 fired at SW count    83021 - diff:    27665
+TIMER_0: channel 3 fired at SW count   110687 - diff:    27666
+
+TEST SUCCEEDED
+

@@ -1,0 +1,103 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-k64f" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-k64f
+Welcome to pyterm!
+Type '/exit' to exit.
+024, val: 7
+key[7]: 536812056, val: 8
+key[8]: 536812088, val: 9
+key[9]: 536812120, val: 10
+key[10]: 536812152, va280, val: 15
+key[15]: 536812312, val: 16
+key[16]: 536812344, val: 17
+key[17]: 536812376, val: 18
+key[18]: 536812408, val: 19
+keymain(): This is RIOT! (Version: 2019.10-RC1)
+START
+
+-= TEST 1 - create 20 tls with sequencial values 0...19 =-
+now rise sequencial by one values 1...20
+pick deliberate storage (key[3]:536811928) and change the value
+show tls values:
+key[0]: 536811832, val: 1
+key[1]: 536811864, val: 2
+key[2]: 536811896, val: 3
+key[3]: 536811928, val: 42
+key[4]: 536811960, val: 5
+key[5]: 536811992, val: 6
+key[6]: 536812024, val: 7
+key[7]: 536812056, val: 8
+key[8]: 536812088, val: 9
+key[9]: 536812120, val: 10
+key[10]: 536812152, val: 11
+key[11]: 536812184, val: 12
+key[12]: 536812216, val: 13
+key[13]: 536812248, val: 14
+key[14]: 536812280, val: 15
+key[15]: 536812312, val: 16
+key[16]: 536812344, val: 17
+key[17]: 536812376, val: 18
+key[18]: 536812408, val: 19
+key[19]: 536812440, val: 20
+
+ -= TEST 2 - delete deliberate key (key[5]:536811992) =-
+show tls values:
+key[0]: 536811832, val: 1
+key[1]: 536811864, val: 2
+key[2]: 536811896, val: 3
+key[3]: 536811928, val: 42
+key[4]: 536811960, val: 5
+key[6]: 536812024, val: 7
+key[7]: 536812056, val: 8
+key[8]: 536812088, val: 9
+key[9]: 536812120, val: 10
+key[10]: 536812152, val: 11
+key[11]: 536812184, val: 12
+key[12]: 536812216, val: 13
+key[13]: 536812248, val: 14
+key[14]: 536812280, val: 15
+key[15]: 536812312, val: 16
+key[16]: 536812344, val: 17
+key[17]: 536812376, val: 18
+key[18]: 536812408, val: 19
+key[19]: 536812440, val: 20
+
+-= TEST 3 - create new tls =-
+added new tls, key: 536812472, val: 99
+show tls values:
+key[0]: 536811832, val: 1
+key[1]: 536811864, val: 2
+key[2]: 536811896, val: 3
+key[3]: 536811928, val: 42
+key[4]: 536811960, val: 5
+key[6]: 536812024, val: 7
+key[7]: 536812056, val: 8
+key[8]: 536812088, val: 9
+key[9]: 536812120, val: 10
+key[10]: 536812152, val: 11
+key[11]: 536812184, val: 12
+key[12]: 536812216, val: 13
+key[13]: 536812248, val: 14
+key[14]: 536812280, val: 15
+key[15]: 536812312, val: 16
+key[16]: 536812344, val: 17
+key[17]: 536812376, val: 18
+key[18]: 536812408, val: 19
+key[19]: 536812440, val: 20
+
+-= TEST 4 - delete all keys =-
+show tls values:
+
+-= TEST 5 - try delete non-existing key =-
+try to delete returns: 0
+
+-= TEST 6 - add key and delete without a tls =-
+created key: 536812504
+try to delete returns: 0
+
+-= TEST 7 - add key without tls =-
+created key: 536812520
+test_7_val: 0
+tls tests finished.
+SUCCESS
+

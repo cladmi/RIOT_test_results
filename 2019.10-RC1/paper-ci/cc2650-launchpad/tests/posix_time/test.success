@@ -1,0 +1,49 @@
+r
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+st: sem_post
+second: sem was posted
+second: end
+first: sem_post done
+first: sem_destroy
+first: end
+######################### TEST2:
+first: sem_init
+first: thread create: 5
+first: thread created: priority 5 (1/5)
+first: thread create: 4
+first: thread created: priority 4 (2/5)
+first: thread create: 3
+first: thread created: priority 3 (3/5)
+first: thread create: 2
+first: thread created: priority 2 (4/5)
+first: thread create: 1
+first: thread created: priority 1 (5/5)
+------------------------------------------
+post no. 0
+Thread 'priority 1' woke up.
+Back in main thread.
+post no. 1
+Thread 'priority 2' woke up.
+Back in main threadmain(): This is RIOT! (Version: 2019.10-RC1)
+Help: Press s to start test, r to print it is ready
+READY
+s
+START
+5 x usleep(i++ * 500000)
+wake up
+wake up
+wake up
+wake up
+wake up
+5 x sleep(i++)
+wake up
+wake up
+wake up
+wake up
+wake up
+DONE
+

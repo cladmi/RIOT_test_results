@@ -1,0 +1,28 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-sltb001a" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-sltb001a
+Welcome to pyterm!
+Type '/exit' to exit.
+�main(): This is RIOT! (Version: 2019.10-RC1)
+[START] event test application.
+
+initializing detached event queue 0x20000a28
+posting 0x20000220
+posting 0x20000228
+running thread that will claim event queue 0x20000a28
+claiming event queue 0x20000a28
+launching event queue 0x20000a28
+triggered delayed event 0x20000220
+triggered delayed event 0x20000228
+posting 0x20000230
+posting 0x20000238
+canceling 0x20000238
+posting custom event
+posting timed callback with timeout 1sec
+posting timed callback with timeout 0.5sec and canceling it again
+launching event queue
+triggered 0x20000230
+triggered custom event with text: "CUSTOM CALLBACK"
+triggered timed callback with arg 0x12345678 after 1000020us
+[SUCCESS]
+

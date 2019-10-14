@@ -1,0 +1,9 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/gnrc_ipv6_ext test
+cc -O3 -Wall ethos.c -o ethos
+[1;31mThis test requires root privileges.
+It's constructing and sending Ethernet frames.[0m
+
+/srv/ilab-builds/workspace/git/RIOT/tests/gnrc_ipv6_ext/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

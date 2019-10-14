@@ -1,0 +1,44 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/riotboot test
+expecting slot number 0, app_ver 0
+curslotnr
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-pba-d-01-kw2x" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-pba-d-01-kw2x
+Welcome to pyterm!
+Type '/exit' to exit.
+s a(n) kinetis MCU.
+riotboot_test: running from slot 0
+Image magmain(): This is RIOT! (Version: 2019.10-RC1)
+Hello riotboot!
+You are running RIOT on a(n) pba-d-01-kw2x board.
+This board features a(n) kinetis MCU.
+riotboot_test: running from slot 0
+Image magic_number: 0x544f4952
+Image Version: 0x00000000
+Image start address: 0x00001200
+Header chksum: 0x817aafa1
+
+>  curslotnr
+Current slot=0
+> curslothdr
+ curslothdr
+Image magic_number: 0x544f4952
+Image Version: 0x00000000
+Image start address: 0x00001200
+Header chksum: 0x817aafa1
+
+> getslotaddr 0
+ getslotaddr 0
+Slot 0 address=0x00001200
+> dumpaddrs
+ dumpaddrs
+slot 0: metadata: 0x1000 image: 0x00001200
+slot 1: metadata: 0x20800 image: 0x00000000
+> 
+compiling /srv/ilab-builds/workspace/git/RIOT/dist/tools/riotboot_gen_hdr/bin/genhdr...
+make: Nothing to be done for 'all'.
+make[1]: *** No rule to make target '/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/bin/pba-d-01-kw2x/tests_riotboot-slot1.bin', needed by '/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/bin/pba-d-01-kw2x/tests_riotboot-slot1.hdr'.  Stop.
+/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

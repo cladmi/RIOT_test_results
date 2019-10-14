@@ -1,0 +1,10 @@
+Failures during test:
+- [tests/gnrc_ipv6_ext](tests/gnrc_ipv6_ext/test.failed)
+- [tests/gnrc_ipv6_ext_frag](tests/gnrc_ipv6_ext_frag/test.failed)
+- [tests/gnrc_rpl_srh](tests/gnrc_rpl_srh/test.failed)
+- [tests/gnrc_sock_dns](tests/gnrc_sock_dns/test.failed)
+- [tests/gnrc_tcp](tests/gnrc_tcp/test.failed)
+- [tests/ps_schedstatistics](tests/ps_schedstatistics/test.failed)
+- [tests/riotboot](tests/riotboot/test.failed)
+- [tests/xtimer_periodic_wakeup](tests/xtimer_periodic_wakeup/test.failed)
+- [tests/xtimer_usleep](tests/xtimer_usleep/test.failed)

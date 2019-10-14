@@ -1,0 +1,67 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-sltb001a" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-sltb001a
+Welcome to pyterm!
+Type '/exit' to exit.
+now=2:10152 -> every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+now=4:13548 -> every 2.0s: Hello World
+sec=4 min=0 hour=0
+�main(): This is RIOT! (Version: 2019.10-RC1)
+This is thread 3
+sending 1st msg
+now=0:6832 -> every 2.0s: Hello World
+sending 2nd msg
+now=0:11540 -> every 5.0s: This is a Test
+This is thread 4
+sec=1 min=0 hour=0
+now=2:10152 -> every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+now=4:13548 -> every 2.0s: Hello World
+sec=4 min=0 hour=0
+now=5:15208 -> every 5.0s: This is a Test
+sec=5 min=0 hour=0
+now=6:16944 -> every 2.0s: Hello World
+sec=6 min=0 hour=0
+sec=7 min=0 hour=0
+now=8:20340 -> every 2.0s: Hello World
+sec=8 min=0 hour=0
+sec=9 min=0 hour=0
+now=10:18872 -> every 5.0s: This is a Test
+now=10:23736 -> every 2.0s: Hello World
+sec=10 min=0 hour=0
+sec=11 min=0 hour=0
+now=12:27220 -> every 2.0s: Hello World
+sec=12 min=0 hour=0
+sec=13 min=0 hour=0
+now=14:30708 -> every 2.0s: Hello World
+sec=14 min=0 hour=0
+now=15:22624 -> every 5.0s: This is a Test
+sec=15 min=0 hour=0
+now=16:34196 -> every 2.0s: Hello World
+sec=16 min=0 hour=0
+sec=17 min=0 hour=0
+now=18:37684 -> every 2.0s: Hello World
+sec=18 min=0 hour=0
+sec=19 min=0 hour=0
+now=20:26376 -> every 5.0s: This is a Test
+now=20:41172 -> every 2.0s: Hello World
+sec=20 min=0 hour=0
+sec=21 min=0 hour=0
+now=22:44656 -> every 2.0s: Hello World
+sec=22 min=0 hour=0
+sec=23 min=0 hour=0
+now=24:48144 -> every 2.0s: Hello World
+sec=24 min=0 hour=0
+now=25:30128 -> every 5.0s: This is a Test
+sec=25 min=0 hour=0
+now=26:51632 -> every 2.0s: Hello World
+sec=26 min=0 hour=0
+sec=27 min=0 hour=0
+now=28:55120 -> every 2.0s: Hello World
+sec=28 min=0 hour=0
+sec=29 min=0 hour=0
+now=30:33880 -> every 5.0s: This is a Test
+

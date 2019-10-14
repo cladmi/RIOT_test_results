@@ -1,0 +1,60 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+       1
+sizeof(kernel_pid_t):             2
+sizeof(list_node_t):              4
+sizeof(mbox_t):                  24
+sizeof(msg_t):                    8
+sizeof(mutex_t):                  4
+sizeof(priority_queue_node_t):   12
+sizeof(priority_queue_t):         4
+sizeof(ringbuffer_t):            16
+sizeof(rmutex_t):                 8
+sizeof(thread_flags_t):           0   (not enabled)
+
+TCB (thread_t) details:         size  offset
+sizeof(thread_t):                48       -
+    tcb->sp                       4       0
+    tcb->status                   1       4
+    tcb->priority                 1       5
+    tcb->pid                      2       6
+    tcb->rq_entry                 4       8
+    tcb->wait_data                4      12
+    tcb->msg_waitersmain(): This is RIOT! (Version: 2019.10-RC1)
+Sizeof RIOT core types
+
+                                size
+sizeof(cib_t):                   12
+sizeof(clist_node_t):             4
+sizeof(core_panic_t):             1
+sizeof(kernel_pid_t):             2
+sizeof(list_node_t):              4
+sizeof(mbox_t):                  24
+sizeof(msg_t):                    8
+sizeof(mutex_t):                  4
+sizeof(priority_queue_node_t):   12
+sizeof(priority_queue_t):         4
+sizeof(ringbuffer_t):            16
+sizeof(rmutex_t):                 8
+sizeof(thread_flags_t):           0   (not enabled)
+
+TCB (thread_t) details:         size  offset
+sizeof(thread_t):                48       -
+    tcb->sp                       4       0
+    tcb->status                   1       4
+    tcb->priority                 1       5
+    tcb->pid                      2       6
+    tcb->rq_entry                 4       8
+    tcb->wait_data                4      12
+    tcb->msg_waiters              4      16
+    tcb->msg_queue               12      20
+    tcb->msg_array                4      32
+    tcb->stack_start              4      36
+    tcb->name                     4      40
+    tcb->stack_size               4      44
+
+[SUCCESS]
+

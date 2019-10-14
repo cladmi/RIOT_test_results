@@ -1,0 +1,16 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/gnrc_sixlowpan test
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-msba2" -b "115200" -tg --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-msba2
+Welcome to pyterm!
+Type '/exit' to exit.
+random: NO SEED AVAILABLE!
+main(): This is RIOT! (Version: 2019.10-RC1)
+RIOT network stack example application
+#!data abort at 0xb8c (0xE553E003) originating from 0x1bac (0xEAFFFFF7) in mode 0x2000009F
+Timeout in expect script at "child.expect_exact("PKTDUMP: data received:")" (tests/gnrc_sixlowpan/tests/01-run.py:16)
+
+/srv/ilab-builds/workspace/git/RIOT/tests/gnrc_sixlowpan/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

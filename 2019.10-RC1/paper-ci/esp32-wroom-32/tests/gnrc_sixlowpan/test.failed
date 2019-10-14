@@ -1,0 +1,89 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/gnrc_sixlowpan test
+ESP32_SDK_DIR should be defined as /path/to/esp-idf directory
+ESP32_SDK_DIR is set by default to /opt/esp/esp-idf
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-esp32-wroom-32" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-esp32-wroom-32
+Welcome to pyterm!
+Type '/exit' to exit.
+E_NETIF (-1)
+if_pid: 7  rssi: 0  lqi: 0
+flags: 0x0
+src_l2addr: (nil)
+dst_l2addr: (nil)
+~~ SNIP  1 - size:  40 byte, type: NETTYPE_IPV6 (2)
+traffic class: 0x00 (ECN: 0x0, DSCP: 0x00)
+flow label: 0x00000
+length: 40983  next header: 255  hop limit: 255
+source address: fe80::ff:fe00:1
+destination address: ff02::2
+~~ SNIP  2 - size:   8 byte, type: NETTYPE_ICMPV6 (3)
+   type: 133  code:   0
+   cksum: 0x0000
+00000000  00  00  00  00
+~~ SNIP  3 - size:  16 byte, type: NETTYPE_UNDEF (0)
+00000000  01  02  02  00  00  FF  FE  00  00  01  00  00  00  00  00  00
+~~ PKT    -  4 snips, total size:  72 byte
+PKTDUMP: data to send:
+~~ SNIP  0 - size:   8 byte, type: NETTYPE_NETIF (-1)
+if_pid: 7  rssi: 0  lqi: 0
+flags: MULTICAST 
+src_l2addr: (nil)
+dst_l2addr: (nil)
+~~ SNIP  1 - size:  40 byte, type: NETTYPE_IPV6 (2)
+traffic class: 0x00 (ECN: 0x0, DSCP: 0x00)
+flow label: 0x00000
+length: 24  next header: 58  hop limit: 255
+source address: fe80::ff:fe00:1
+destination address: ff02::2
+~~ SNIP  2 - size:   8 byte, type: NETTYPE_ICMPV6 (3)
+   type: 133  code:   0
+   cksum: 0x7c23
+00000000  00  00  00  00
+~~ SNIP  3 - size:  16 byte, type: NETTYPE_UNDEF (0)
+00000000  01  02  02  00  00  FF  FE  00  00  01  00  00  00  00  00  00
+~~ PKT    -  4 snips, total size:  72 byte
+PKTDUMP: data to send:
+~~ SNIP  0 - size:   8 byte, type: NETTYPE_NETIF (-1)
+if_pid: 7  rssi: 0  lqi: 0
+flags: 0x0
+src_l2addr: (nil)
+dst_l2addr: (nil)
+~~ SNIP  1 - size:  40 byte, type: NETTYPE_IPV6 (2)
+traffic class: 0x00 (ECN: 0x0, DSCP: 0x00)
+flow label: 0x00000
+length: 40983  next header: 255  hop limit: 255
+source address: fe80::ff:fe00:1
+destination address: ff02::2
+~~ SNIP  2 - size:   8 byte, type: NETTYPE_ICMPV6 (3)
+   type: 133  code:   0
+   cksum: 0x0000
+00000000  00  00  00  00
+~~ SNIP  3 - size:  16 byte, type: NETTYPE_UNDEF (0)
+00000000  01  02  02  00  00  FF  FE  00  00  01  00  00  00  00  00  00
+~~ PKT    -  4 snips, total size:  72 byte
+PKTDUMP: data to send:
+~~ SNIP  0 - size:   8 byte, type: NETTYPE_NETIF (-1)
+if_pid: 7  rssi: 0  lqi: 0
+flags: MULTICAST 
+src_l2addr: (nil)
+dst_l2addr: (nil)
+~~ SNIP  1 - size:  40 byte, type: NETTYPE_IPV6 (2)
+traffic class: 0x00 (ECN: 0x0, DSCP: 0x00)
+flow label: 0x00000
+length: 24  next header: 58  hop limit: 255
+source address: fe80::ff:fe00:1
+destination address: ff02::2
+~~ SNIP  2 - size:   8 byte, type: NETTYPE_ICMPV6 (3)
+   type: 133  code:   0
+   cksum: 0x7c23
+00000000  00  00  00  00
+~~ SNIP  3 - size:  16 byte, type: NETTYPE_UNDEF (0)
+00000000  01  02  02  00  00  FF  FE  00  00  01  00  00  00  00  00  00
+~~ PKT    -  4 snips, total size:  72 byte
+Timeout in expect script at "child.expect_exact("PKTDUMP: data received:")" (tests/gnrc_sixlowpan/tests/01-run.py:16)
+
+/srv/ilab-builds/workspace/git/RIOT/tests/gnrc_sixlowpan/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

@@ -1,0 +1,37 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+48... (now=34037)
+Testing interval 247... (now=37339)
+Testing interval 246... (now=40640)
+Testing interval 245... (now=43940)
+Testing interval 244... (now=47238)
+Testing interval 243... (now=50536)
+Testing interval 242... (now=53833)
+Testing interval 241... (now=57130)
+Testing interval 240... (now=60424)
+Testing interval 239... (now=63718)
+Testing interval 238... (now=67011)
+Testing interval 237... (now=70302)
+Testing interval 236... (now=73593)
+Testing interval 235... (now=76883)
+Testing interval 234... (now=80172)
+Testing interval 233... (now=83460)
+Testing interval 232... (now=86747)
+Testing interval 231... (now=90033)
+Tmain(): This is RIOT! (Version: 2019.10-RC1)
+xtimer_remove test application.
+
+Setting 3 timers, removing timer 0/3
+timer 1 triggered.
+timer 2 triggered.
+Setting 3 timers, removing timer 1/3
+timer 0 triggered.
+timer 2 triggered.
+Setting 3 timers, removing timer 2/3
+timer 0 triggered.
+timer 1 triggered.
+test successful.
+

@@ -1,0 +1,27 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-stm32f3discovery" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-stm32f3discovery
+> Welcome to pyterm!
+Type '/exit' to exit.
+ main(): This is RIOT! (Version: 2019.10-RC1)
+Creating thread #0, next=1
+Creating thread #1, next=2
+Creating thread #2, next=3
+Creating thread #3, next=4
+Creating thread #4, next=0
+
+> help
+ 
+>  help
+Command              Description
+---------------------------------------
+reboot               Reboot the node
+ps                   Prints information about running threads.
+> ps
+ ps
+	pid | name                 | state    Q | pri | stack  ( used) | base addr  | current     | runtime  | switches
+	  - | isr_stack            | -        - |   - |    512 (  132) | 0x20000000 | 0x200001c8
+	  1 | idle                 | pending  Q |  15 |    256 (  132) | 0x20000550 | 0x200005cc  | 91.396% |       666
+	  2 | main                 | running  Q |   7 |   1536 (  772) | 0x20000650 | 0x2000095c  |  2.705% |       310
+	  3 | thread               | bl rx    _ |   6 |   1024 (  388) | 0x20000e74 | 0x200011b4  |  1.189% |       415
+

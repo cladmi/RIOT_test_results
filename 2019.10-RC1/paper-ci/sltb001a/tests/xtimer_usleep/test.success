@@ -1,0 +1,49 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-sltb001a" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-sltb001a
+Welcome to pyterm!
+Type '/exit' to exit.
+�main(): This is RIOT! (Version: 2019.10-RC1)
+Running test 5 times with 7 distinct sleep times
+r
+Help: Press s to start test, r to print it is ready
+READY
+s
+START
+Slept for 10016 us (expected: 10000 us) Offset: 16 us
+Slept for 50020 us (expected: 50000 us) Offset: 20 us
+Slept for 10252 us (expected: 10234 us) Offset: 18 us
+Slept for 56800 us (expected: 56780 us) Offset: 20 us
+Slept for 12140 us (expected: 12122 us) Offset: 18 us
+Slept for 98784 us (expected: 98765 us) Offset: 19 us
+Slept for 75020 us (expected: 75000 us) Offset: 20 us
+Slept for 10020 us (expected: 10000 us) Offset: 20 us
+Slept for 50020 us (expected: 50000 us) Offset: 20 us
+Slept for 10252 us (expected: 10234 us) Offset: 18 us
+Slept for 56800 us (expected: 56780 us) Offset: 20 us
+Slept for 12140 us (expected: 12122 us) Offset: 18 us
+Slept for 98784 us (expected: 98765 us) Offset: 19 us
+Slept for 75020 us (expected: 75000 us) Offset: 20 us
+Slept for 10020 us (expected: 10000 us) Offset: 20 us
+Slept for 50020 us (expected: 50000 us) Offset: 20 us
+Slept for 10252 us (expected: 10234 us) Offset: 18 us
+Slept for 56800 us (expected: 56780 us) Offset: 20 us
+Slept for 12140 us (expected: 12122 us) Offset: 18 us
+Slept for 98784 us (expected: 98765 us) Offset: 19 us
+Slept for 75020 us (expected: 75000 us) Offset: 20 us
+Slept for 10020 us (expected: 10000 us) Offset: 20 us
+Slept for 50020 us (expected: 50000 us) Offset: 20 us
+Slept for 10252 us (expected: 10234 us) Offset: 18 us
+Slept for 56800 us (expected: 56780 us) Offset: 20 us
+Slept for 12140 us (expected: 12122 us) Offset: 18 us
+Slept for 98780 us (expected: 98765 us) Offset: 15 us
+Slept for 75020 us (expected: 75000 us) Offset: 20 us
+Slept for 10020 us (expected: 10000 us) Offset: 20 us
+Slept for 50020 us (expected: 50000 us) Offset: 20 us
+Slept for 10252 us (expected: 10234 us) Offset: 18 us
+Slept for 56796 us (expected: 56780 us) Offset: 16 us
+Slept for 12140 us (expected: 12122 us) Offset: 18 us
+Slept for 98784 us (expected: 98765 us) Offset: 19 us
+Slept for 75020 us (expected: 75000 us) Offset: 20 us
+Test ran for 1728972 us
+

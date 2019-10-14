@@ -1,0 +1,27 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-k64f" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-k64f
+Welcome to pyterm!
+Type '/exit' to exit.
+ate.
+
+All done!
+main(): This is RIOT! (Version: 2019.10-RC1)
+Testing Bloom filter.
+
+m: 4096 k: 8
+
+adding 512 elements took 158ms
+checking 10000 elements took 1386ms
+
+267 elements probably in the filter.
+9733 elements not in the filter.
+0.026700 false positive rate.
+
+All done!
+main(): This is RIOT! (Version: 2019.10-RC1)
+Testing Bloom filter.
+
+m: 4096 k: 8
+
+

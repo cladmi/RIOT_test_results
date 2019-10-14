@@ -1,0 +1,29 @@
+r
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-nrf52dk" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-nrf52dk
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+Condition variable order test
+Please refer to the README.md for more information
+
+Help: Press s to start test, r to print it is ready
+READY
+s
+START
+T3 (prio 6): waiting on condition variable now
+T4 (prio 4): waiting on condition variable now
+T5 (prio 0): waiting on condition variable now
+T6 (prio 2): waiting on condition variable now
+T7 (prio 1): waiting on condition variable now
+First batch was signaled
+T5 (prio 0): condition variable was signaled now
+T7 (prio 1): condition variable was signaled now
+T6 (prio 2): condition variable was signaled now
+First batch has woken up
+Second batch was signaled
+T4 (prio 4): condition variable was signaled now
+T3 (prio 6): condition variable was signaled now
+Second batch has woken up
+

@@ -1,0 +1,51 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-nrf52dk" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-nrf52dk
+Welcome to pyterm!
+Type '/exit' to exit.
+ * (timed out with timeout 1000000)
+Calling test_tcp_accept6__success()
+Calling test_tcp_read6__EAGAIN()
+Calling test_tcp_read6__ECONNRESET()
+Calling test_tcp_read6__ENOTCONN()
+Calling test_tcp_read6__ETIMEDOUT()
+ * Calling sock_tcp_read()
+ * (timed out with timeout 1000000)
+Calling test_tcp_read6__success()
+Calling test_tcp_read6__success_with_timeout()
+Calling test_tcp_read6__success_non_blocking()
+Calling test_tcp_write6__ENOTCONN()
+Calling test_tcp_write6__success()
+ALL TESTS SUCCESSFUL
+main(): This is RIOT! (Version: 2019.10-RC1)
+code 0x41
+Calling test_tcp_connect6__EADDRINUSE()
+Calling test_tcp_connect6__EAFNOSUPPORT()
+Calling test_tcp_connect6__EINVAL_addr()
+Calling test_tcp_connect6__EINVAL_netif()
+Calling test_tcp_connect6__success_without_port()
+Calling test_tcp_connect6__success_local_port()
+Calling test_tcp_listen6__EADDRINUSE()
+Calling test_tcp_listen6__EAFNOSUPPORT()
+Calling test_tcp_listen6__EINVAL()
+Calling test_tcp_listen6__success_any_netif()
+Calling test_tcp_listen6__success_spec_netif()
+Calling test_tcp_accept6__EAGAIN()
+Calling test_tcp_accept6__EINVAL()
+Calling test_tcp_accept6__ETIMEDOUT()
+ * Calling sock_tcp_accept()
+ * (timed out with timeout 1000000)
+Calling test_tcp_accept6__success()
+Calling test_tcp_read6__EAGAIN()
+Calling test_tcp_read6__ECONNRESET()
+Calling test_tcp_read6__ENOTCONN()
+Calling test_tcp_read6__ETIMEDOUT()
+ * Calling sock_tcp_read()
+ * (timed out with timeout 1000000)
+Calling test_tcp_read6__success()
+Calling test_tcp_read6__success_with_timeout()
+Calling test_tcp_read6__success_non_blocking()
+Calling test_tcp_write6__ENOTCONN()
+Calling test_tcp_write6__success()
+ALL TESTS SUCCESSFUL
+

@@ -1,0 +1,22 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-nrf52dk" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-nrf52dk
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+Mutex order test
+Please refer to the README.md for more information
+
+T3 (prio 6): trying to lock mutex now
+T4 (prio 4): trying to lock mutex now
+T5 (prio 0): trying to lock mutex now
+T6 (prio 2): trying to lock mutex now
+T7 (prio 1): trying to lock mutex now
+T5 (prio 0): locked mutex now
+T7 (prio 1): locked mutex now
+T6 (prio 2): locked mutex now
+T4 (prio 4): locked mutex now
+T3 (prio 6): locked mutex now
+
+Test END, check the order of priorities above.
+

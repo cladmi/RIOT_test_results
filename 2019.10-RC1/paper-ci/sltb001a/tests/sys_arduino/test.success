@@ -1,0 +1,48 @@
+wrang
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-sltb001a" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-sltb001a
+Welcome to pyterm!
+Type '/exit' to exit.
+�main(): This is RIOT! (Version: 2019.10-RC1�����Arduino!
+UNK
+echo quite long string echoing on arduino module test
+ECHO: quite long string echoing on arduino module test
+numb 4242
+4242 4242 1092 10222
+time
+2012232 2048728 2085280 OK END
+print
+print(int, BIN): 11111111111111111111101011000111
+println(int, BIN): 11111111111111111111101011000111
+print(int, OCT): 37777775307
+println(int, OCT): 37777775307
+print(int, DEC): -1337
+println(int, DEC): -1337
+print(int, HEX): fffffac7
+println(int, HEX): fffffac7
+print(unsigned int, BIN): 101010
+println(unsigned int, BIN): 101010
+print(unsigned int, OCT): 52
+println(unsigned int, OCT): 52
+print(unsigned int, DEC): 42
+println(unsigned int, DEC): 42
+print(unsigned int, HEX): 2a
+println(unsigned int, HEX): 2a
+print(long, BIN): 10110110011010011111110100101110
+println(long, BIN): 10110110011010011111110100101110
+print(long, OCT): 26632376456
+println(long, OCT): 26632376456
+print(long, DEC): -1234567890
+println(long, DEC): -1234567890
+print(long, HEX): b669fd2e
+println(long, HEX): b669fd2e
+print(unsigned long, BIN): 1001001100101100000001011010010
+println(unsigned long, BIN): 1001001100101100000001011010010
+print(unsigned long, OCT): 11145401322
+println(unsigned long, OCT): 11145401322
+print(unsigned long, DEC): 1234567890
+println(unsigned long, DEC): 1234567890
+print(unsigned long, HEX): 499602d2
+println(unsigned long, HEX): 499602d2
+

@@ -1,0 +1,31 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+y[6]: 536877536, val: 7
+key[7]: 536877568, val: 8
+key[8]: 536877600, val: 9
+key[9]: 536877632, val: 10
+key[10]: 536877664, val: 11
+key[11]: 536877696, val: 12
+key[12]: 536877728, val: 13
+key[13]: 536877760, val: 14
+key[14]: 536877792, val: 15
+key[15]: 536877824, val: 16
+key[16]: 536877856, val: 17
+key[17]: 536877888, val: 18
+key[18]: 536877920, val: 19
+key[19]: 536877952, val: 20
+
+ -= TEST 2 - delete deliberate key (key[5]:536877504) =-
+show tls values:
+key[0]: 536877344, val: 1
+key[1]: 536877376, val: 2
+key[2]: 536877408, val: 3
+key[3]: 536877440, val: 42
+key[4]: 536877472, val: 5
+key[6]: 536877536, val: 7
+key[7]: 53687756....
+OK (4 tests)
+

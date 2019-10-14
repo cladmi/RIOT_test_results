@@ -1,0 +1,12 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-msba2" -b "115200" -tg --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-msba2
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+Running test #1... done. Run time: 0.000 s
+Running test #2... done. Run time: 0.000 s
+Running test #3... done. Run time: 0.000 s
+Running test #4... done. Run time: 0.000 s
+Running test #5... done. Run time: 0.000 s
+

@@ -1,0 +1,42 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/riotboot test
+expecting slot number 0, app_ver 0
+curslotnr
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-kw41z" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-kw41z
+Welcome to pyterm!
+Type '/exit' to exit.
+KǅU3�?��,¬�3�j�b:�main(): This is RIOT! (Version: 2019.10-RC1)
+Hello riotboot!
+You are running RIOT on a(n) frdm-kw41z board.
+This board features a(n) kinetis MCU.
+riotboot_test: running from slot 0
+Image magic_number: 0x544f4952
+Image Version: 0x00000000
+Image start address: 0x00001100
+Header chksum: 0x7f7aaea1
+
+>  curslotnr
+Current slot=0
+> curslothdr
+ curslothdr
+Image magic_number: 0x544f4952
+Image Version: 0x00000000
+Image start address: 0x00001100
+Header chksum: 0x7f7aaea1
+
+> getslotaddr 0
+ getslotaddr 0
+Slot 0 address=0x00001100
+> dumpaddrs
+ dumpaddrs
+slot 0: metadata: 0x1000 image: 0x00001100
+slot 1: metadata: 0x40800 image: 0x00000000
+> 
+compiling /srv/ilab-builds/workspace/git/RIOT/dist/tools/riotboot_gen_hdr/bin/genhdr...
+make: Nothing to be done for 'all'.
+make[1]: *** No rule to make target '/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/bin/frdm-kw41z/tests_riotboot-slot1.bin', needed by '/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/bin/frdm-kw41z/tests_riotboot-slot1.hdr'.  Stop.
+/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

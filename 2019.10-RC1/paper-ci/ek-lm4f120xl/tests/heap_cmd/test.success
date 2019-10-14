@@ -1,0 +1,24 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-ek-lm4f120xl" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-ek-lm4f120xl
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+Shell-based test application for heap functions.
+heap
+Use the 'help' command to get more information on how to use it.
+>  heap
+heap: 29624 (used 2500, free 27124) [bytes]
+malloc 100
+>  malloc 100
+allocated 0x20001618
+> heap
+ heap
+heap: 29624 (used 2608, free 27016) [bytes]
+free 0x20001618
+>  free 0x20001618
+freed 0x20001618
+> heap
+ heap
+heap: 29624 (used 2500, free 27124) [bytes]
+

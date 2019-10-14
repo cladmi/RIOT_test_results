@@ -1,0 +1,11 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/gnrc_rpl_srh test
+ESP32_SDK_DIR should be defined as /path/to/esp-idf directory
+ESP32_SDK_DIR is set by default to /opt/esp/esp-idf
+make[1]: Nothing to be done for 'all'.
+[1;31mThis test requires root privileges.
+It's constructing and sending Ethernet frames.[0m
+
+/srv/ilab-builds/workspace/git/RIOT/tests/gnrc_rpl_srh/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

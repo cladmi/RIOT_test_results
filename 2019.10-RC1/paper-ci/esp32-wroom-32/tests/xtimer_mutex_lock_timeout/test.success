@@ -1,0 +1,22 @@
+ESP32_SDK_DIR should be defined as /path/to/esp-idf directory
+ESP32_SDK_DIR is set by default to /opt/esp/esp-idf
+help
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-esp32-wroom-32" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-esp32-wroom-32
+Welcome to pyterm!
+Type '/exit' to exit.
+help
+Command              Description
+---------------------------------------
+mutex_timeout_long_unlocked unlocked mutex with long timeout
+mutex_timeout_long_locked locked mutex with long timeout
+> mutex_timeout_long_unlocked
+ mutex_timeout_long_unlocked
+starting test: xtimer mutex lock timeout
+OK
+> mutex_timeout_long_locked
+ mutex_timeout_long_locked
+starting test: xtimer mutex lock timeout
+OK
+> 

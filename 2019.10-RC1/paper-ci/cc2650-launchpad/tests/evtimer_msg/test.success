@@ -1,0 +1,43 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+nt with text: "CUSTOM CALLBACK"
+triggered timed callback with arg 0x12345678 after 1000024us
+[SUCCESS]
+main(): This is RIOT! (Version: 2019.10-RC1)
+[START] event test application.
+
+initializing detached event queue 0x20000a10
+posting 0x20000218
+posting 0x20000220
+running thread that will claim event queue 0x20000a10
+claiming event queue 0x20000a10
+launching event queue 0x20000a10
+triggered delayed event 0x20000218
+triggered delayed event 0x20000220
+posting 0x20000228
+posting 0x20000230
+canceling 0x20000230At   1511 ms received msg 2: "#1 supposed to be 1511"
+At   3965 ms received msg 3: "#3 supposed to be 3965"
+By now all msgs should have been received
+If yes, the tests were successful
+main(): This is RIOT! (Version: 2019.10-RC1)
+Testing generic evtimer
+This should list 2 items
+ev #1 offset=1000
+ev #2 offset=500
+This should list 4 items
+ev #1 offset=659
+ev #2 offset=341
+ev #3 offset=500
+ev #4 offset=2454
+Are the reception times of all 4 msgs close to the supposed values?
+At    670 ms received msg 0: "#2 supposed to be 670"
+.At   1011 ms received msg 1: "#0 supposed to be 1011"
+.At   1511 ms received msg 2: "#1 supposed to be 1511"
+.At   3965 ms received msg 3: "#3 supposed to be 3965"
+.
+All tests successful
+

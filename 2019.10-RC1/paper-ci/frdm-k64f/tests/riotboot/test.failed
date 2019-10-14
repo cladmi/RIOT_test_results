@@ -1,0 +1,56 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/riotboot test
+expecting slot number 0, app_ver 0
+curslotnr
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-k64f" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-k64f
+Welcome to pyterm!
+Type '/exit' to exit.
+]: 536811864, val: 2
+key[2]: 536811896, val: 3
+key[3]: 536811928, val: 42
+key[4]: 536811960, val: 5
+key[5]: 536811992, val: 6
+key[6]: 536812024, val: 7
+key[7]: 536812056, val: 8
+key[8]: 536812088, val: 9
+key[9]: 536812120, val: 10
+key[10]: 536812152, val: CU.
+riotboot_test: running from slot 0
+Image magic_number: 0x544f4952
+Image Version: 0x00000000
+Image start address: 0x00002200
+main(): This is RIOT! (Version: 2019.10-RC1)
+Hello riotboot!
+You are running RIOT on a(n) frdm-k64f board.
+This board features a(n) kinetis MCU.
+riotboot_test: running from slot 0
+Image magic_number: 0x544f4952
+Image Version: 0x00000000
+Image start address: 0x00002200
+Header chksum: 0xa17abfa1
+
+>  curslotnr
+Current slot=0
+> curslothdr
+ curslothdr
+Image magic_number: 0x544f4952
+Image Version: 0x00000000
+Image start address: 0x00002200
+Header chksum: 0xa17abfa1
+
+> getslotaddr 0
+ getslotaddr 0
+Slot 0 address=0x00002200
+> dumpaddrs
+ dumpaddrs
+slot 0: metadata: 0x2000 image: 0x00002200
+slot 1: metadata: 0x81000 image: 0x00000000
+> 
+compiling /srv/ilab-builds/workspace/git/RIOT/dist/tools/riotboot_gen_hdr/bin/genhdr...
+make: Nothing to be done for 'all'.
+make[1]: *** No rule to make target '/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/bin/frdm-k64f/tests_riotboot-slot1.bin', needed by '/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/bin/frdm-k64f/tests_riotboot-slot1.hdr'.  Stop.
+/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

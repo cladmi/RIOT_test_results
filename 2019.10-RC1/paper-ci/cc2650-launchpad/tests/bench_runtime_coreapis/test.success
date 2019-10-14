@@ -1,0 +1,27 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+         2us  ---   0.000us per call  ---  1783793664 calls per sec
+        mutex lock/unlock:      3562us  ---   0.003us per call  ---  280741156 calls per sec
+
+main(): This is RIOT! (Version: 2019.10-RC1)
+Runtime of Selected Core API functions
+
+                 nop loop: 4294961226us  ---  4294.961us per call  ---        232 calls per sec
+
+             mutex_init():         2us  ---   0.000us per call  ---  1783793664 calls per sec
+        mutex lock/unlock:      7017us  ---   0.007us per call  ---  142511044 calls per sec
+
+       thread_flags_set(): 4294957353us  ---  4294.957us per call  ---        232 calls per sec
+     thread_flags_clear():     25652us  ---   0.025us per call  ---   38983315 calls per sec
+thread flags set/wait any:     32666us  ---   0.032us per call  ---   30612869 calls per sec
+thread flags set/wait all:     23977us  ---   0.023us per call  ---   41706635 calls per sec
+thread flags set/wait one:     11833us  ---   0.011us per call  ---   84509422 calls per sec
+
+        msg_try_receive():      1364us  ---   0.001us per call  ---  733137829 calls per sec
+              msg_avail(): 4294943010us  ---  4294.943us per call  ---        232 calls per sec
+
+[SUCCESS]
+

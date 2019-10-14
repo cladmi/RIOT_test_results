@@ -1,0 +1,21 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/periph_rtc test
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-msba2" -b "115200" -tg --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-msba2
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+
+RIOT RTC low-level driver test
+This test will display 'Alarm!' every 2 seconds for 4 times
+  Setting clock to   2011-12-13 14:15:57
+Clock value is now   2011-12-13 14:15:57
+  Setting alarm to   2011-12-13 14:15:59
+   Alarm is set to   2011-12-13 14:15:59
+
+Timeout in expect script at "child.expect_exact('Alarm!')" (tests/periph_rtc/tests/01-run.py:46)
+
+/srv/ilab-builds/workspace/git/RIOT/tests/periph_rtc/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

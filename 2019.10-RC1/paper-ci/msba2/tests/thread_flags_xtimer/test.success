@@ -1,0 +1,18 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-msba2" -b "115200" -tg --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-msba2
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+START
+Test setting thread flags from (x)timer callback
+You should see the message '+++ timeout XX +++' printed to the 
+screen 5 times, once every 100 milliseconds
+
++++ timeout  1 +++
++++ timeout  2 +++
++++ timeout  3 +++
++++ timeout  4 +++
++++ timeout  5 +++
+SUCCESS
+

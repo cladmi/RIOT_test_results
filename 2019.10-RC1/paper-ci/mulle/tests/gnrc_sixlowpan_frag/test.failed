@@ -1,0 +1,14 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/gnrc_sixlowpan_frag test
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-mulle" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-mulle
+Cannot connect to serial port /dev/riot/tty-mulle: could not open port /dev/riot/tty-mulle: [Errno 2] No such file or directory: '/dev/riot/tty-mulle'
+/srv/ilab-builds/workspace/git/RIOT/Makefile.include:650: recipe for target 'cleanterm' failed
+make[1]: *** [cleanterm] Error 1
+Unexpected end of file in expect script at "child.expect(r'OK \(\d+ tests\)')" (tests/gnrc_sixlowpan_frag/tests/01-run.py:14)
+
+Process already stopped
+/srv/ilab-builds/workspace/git/RIOT/tests/gnrc_sixlowpan_frag/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

@@ -1,0 +1,31 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/thread_flags flash-only
+/srv/ilab-builds/workspace/git/riot-buildsystem-ci-server/tools/ykushxstty_power_reset.py --verbose --ykushserial YKa1273 /dev/riot/tty-arduino-mega2560
+INFO:root:['ykushcmd', 'ykushxs', '-s', 'YKa1273', '-d']
+INFO:root:TTY /dev/riot/tty-arduino-mega2560 in state absent
+INFO:root:['ykushcmd', 'ykushxs', '-s', 'YKa1273', '-u']
+WARNING:root:TTY /dev/riot/tty-arduino-mega2560 in invalid state absent
+INFO:root:['ykushcmd', 'ykushxs', '-s', 'YKa1273', '-d']
+INFO:root:TTY /dev/riot/tty-arduino-mega2560 in state absent
+INFO:root:['ykushcmd', 'ykushxs', '-s', 'YKa1273', '-u']
+WARNING:root:TTY /dev/riot/tty-arduino-mega2560 in invalid state absent
+INFO:root:['ykushcmd', 'ykushxs', '-s', 'YKa1273', '-d']
+INFO:root:TTY /dev/riot/tty-arduino-mega2560 in state absent
+INFO:root:['ykushcmd', 'ykushxs', '-s', 'YKa1273', '-u']
+WARNING:root:TTY /dev/riot/tty-arduino-mega2560 in invalid state absent
+INFO:root:['ykushcmd', 'ykushxs', '-s', 'YKa1273', '-d']
+INFO:root:TTY /dev/riot/tty-arduino-mega2560 in state absent
+INFO:root:['ykushcmd', 'ykushxs', '-s', 'YKa1273', '-u']
+WARNING:root:TTY /dev/riot/tty-arduino-mega2560 in invalid state absent
+INFO:root:['ykushcmd', 'ykushxs', '-s', 'YKa1273', '-d']
+INFO:root:TTY /dev/riot/tty-arduino-mega2560 in state absent
+INFO:root:['ykushcmd', 'ykushxs', '-s', 'YKa1273', '-u']
+WARNING:root:TTY /dev/riot/tty-arduino-mega2560 in invalid state absent
+timeout 3m avrdude -c stk500v2 -p m2560 -P /dev/riot/tty-arduino-mega2560 -b 115200 -F -D -U flash:w:/srv/ilab-builds/workspace/git/RIOT/tests/thread_flags/bin/arduino-mega2560/tests_thread_flags.hex
+avrdude: ser_open(): can't open device "/dev/riot/tty-arduino-mega2560": No such file or directory
+
+avrdude done.  Thank you.
+
+/srv/ilab-builds/workspace/git/RIOT/tests/thread_flags/../../Makefile.include:635: recipe for target 'flash-only' failed
+make: *** [flash-only] Error 1
+
+Return value: 2

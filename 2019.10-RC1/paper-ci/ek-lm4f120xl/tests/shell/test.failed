@@ -1,0 +1,13 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/shell test
+socat - open:/dev/riot/tty-ek-lm4f120xl,b115200,echo=0,raw
+main(): This is RIOT! (Version: 2019.10-RC1)
+test_shell.
+> start_test
+main(): This is RIOT! (Version: 2019.10-RC1)
+test_shell.
+> Timeout in expect script at "child.expect_exact(line)" (tests/shell/tests/01-run.py:62)
+
+/srv/ilab-builds/workspace/git/RIOT/tests/shell/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

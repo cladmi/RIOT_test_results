@@ -1,0 +1,40 @@
+
+Operating System Environment
+-----------------------------
+       Operating System: "Debian GNU/Linux" "9 (stretch)"
+                 Kernel: Linux 4.9.0-11-amd64 x86_64 unknown
+
+Installed compiler toolchains
+-----------------------------
+             native gcc: gcc (Debian 6.3.0-18+deb9u1) 6.3.0 20170516
+      arm-none-eabi-gcc: missing
+                avr-gcc: missing
+       mips-mti-elf-gcc: missing
+             msp430-gcc: missing
+   riscv-none-embed-gcc: missing
+   xtensa-esp32-elf-gcc: missing
+   xtensa-lx106-elf-gcc: missing
+                  clang: missing
+
+Installed compiler libs
+-----------------------
+   arm-none-eabi-newlib: missing
+    mips-mti-elf-newlib: missing
+riscv-none-embed-newlib: missing
+xtensa-esp32-elf-newlib: missing
+xtensa-lx106-elf-newlib: missing
+               avr-libc: missing (missing)
+
+Installed development tools
+---------------------------
+                  cmake: missing
+               cppcheck: missing
+                doxygen: missing
+                    git: git version 2.11.0
+                   make: GNU Make 4.1
+                openocd: GNU MCU Eclipse OpenOCD, 64-bitOpen On-Chip Debugger 0.10.0+dev-00593-g23ad80df4 (2019-04-22-20:18)
+                 python: Python 2.7.13
+                python2: Python 2.7.13
+                python3: Python 3.5.3
+                 flake8: error: /usr/bin/python3: No module named flake8
+             coccinelle: missing

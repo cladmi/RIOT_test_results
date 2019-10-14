@@ -1,0 +1,24 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-msba2" -b "115200" -tg --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-msba2
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+Runtime of Selected Core API functions
+
+                 nop loop:     69446us  ---   0.069us per call  ---   14399677 calls per sec
+
+             mutex_init():         1us  ---   0.000us per call  ---  3567587328 calls per sec
+        mutex lock/unlock:   1986112us  ---   1.986us per call  ---     503496 calls per sec
+
+       thread_flags_set():   1208335us  ---   1.208us per call  ---     827585 calls per sec
+     thread_flags_clear():   1138889us  ---   1.138us per call  ---     878048 calls per sec
+thread flags set/wait any:   3569445us  ---   3.569us per call  ---     280155 calls per sec
+thread flags set/wait all:   3041667us  ---   3.041us per call  ---     328767 calls per sec
+thread flags set/wait one:   3541668us  ---   3.541us per call  ---     282352 calls per sec
+
+        msg_try_receive():   1527779us  ---   1.527us per call  ---     654544 calls per sec
+              msg_avail():    458334us  ---   0.458us per call  ---    2181815 calls per sec
+
+[SUCCESS]
+

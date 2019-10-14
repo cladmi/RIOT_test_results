@@ -1,0 +1,26 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-k64f" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-k64f
+Welcome to pyterm!
+Type '/exit' to exit.
+ 'Hello' every 5 seconds
+
+Initializing the RTT driver
+RTT now: 1323785790
+Setting initial alarm to now + 5 s (1323785795)
+Done setting up the RTT, wait for many Hellos
+main(): This is RIOT! (Version: 2019.10-RC1)
+
+RIOT RTT low-level driver test
+This test will display 'Hello' every 5 seconds
+
+Initializing the RTT driver
+RTT now: 1323785793
+Setting initial alarm to now + 5 s (1323785798)
+Done setting up the RTT, wait for many Hellos
+Hello
+Hello
+Hello
+Hello
+Hello
+

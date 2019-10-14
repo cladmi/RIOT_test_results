@@ -1,0 +1,66 @@
+ESP32_SDK_DIR should be defined as /path/to/esp-idf directory
+ESP32_SDK_DIR is set by default to /opt/esp/esp-idf
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-esp32-wroom-32" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-esp32-wroom-32
+Welcome to pyterm!
+Type '/exit' to exit.
+sec=11 min=0 hour=0
+now=12:12975 -> every 2.0s: Hello World
+sec=12 min=0 hour=0
+sec=13 min=0 hour=0
+now=14:13083 -> every 2.0s: Hello World
+sec=14 min=0 hour=0
+now=15:17677 -> every 5.0s: This is a Test
+sec=15 min=0 hour=0
+now=16:13191 -> every 2.0s: Hello World
+sec=16 min=0 hour=0
+sec=17 min=0 hour=0
+now=18:13299 -> every 2.0s: Hello World
+sec=18 min=0 hour=0
+sec=19 min=0 hour=0
+now=20:13407 -> every 2.0s: Hello World
+now=20:17786 -> every 5.0s: This is a Test
+sec=20 min=0 hour=0
+sec=21 min=0 hour=0
+now=22:13515 -> every 2.0s: Hello World
+sec=22 min=0 hour=0
+sec=23 min=0 hour=0
+now=24:13623 -> every 2.0s: Hello World
+sec=24 min=0 hour=0
+now=25:17895 -> every 5.0s: This is a Test
+sec=25 min=0 hour=0
+now=26:13731 -> every 2.0s: Hello World
+sec=26 min=0 hour=0
+sec=27 min=0 hour=0
+now=28:13839 -> every 2.0s: Hello World
+sec=28 min=0 hour=0
+sec=29 min=0 hour=0
+now=30:13947 -> every 2.0s: Hello World
+now=30:18004 -> every 5.0s: This is a Test
+sec=30 min=0 hour=0
+sec=31 min=0 hour=0
+now=32:14055 -> every 2.0s: Hello World
+sec=32 min=0 hour=0
+sec=33 min=0 hour=0
+now=34:14163 -> every 2.0s: Hello World
+sec=34 min=0 hour=0
+now=35:18113 -> every 5.0s: This is a Test
+sec=35 min=0 hour=0
+now=36:14271 -> every 2.0s: Hello World
+sec=36 min=0 hour=0
+sec=37 min=0 hour=0
+now=38:14379 -> every 2.0s: Hello World
+sec=38 min=0 hour=0
+sec=39 min=0 hour=0
+now=40:14487 -> every 2.0s: Hello World
+now=40:18222 -> every 5.0s: This is a Test
+sec=40 min=0 hour=0
+sec=41 min=0 hour=0
+now=42:14595 -> every 2.0s: Hello World
+sec=42 min=0 hour=0
+sec=43 min=0 hour=0
+now=44:14703 -> every 2.0s: Hello World
+sec=44 min=0 hour=0
+now=45:18331 -> every 5.0s: This is a Test
+

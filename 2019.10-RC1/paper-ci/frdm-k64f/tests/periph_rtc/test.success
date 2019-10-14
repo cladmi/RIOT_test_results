@@ -1,0 +1,30 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-k64f" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-k64f
+Welcome to pyterm!
+Type '/exit' to exit.
+(s)
+Got: 0x74 0xf9 0x73 0x63 0x51 0x0e
+generating 7 random byte(s)
+Got: 0xb7 0xa1 0x6e 0x32 0xbe 0x3d 0xda
+generating 8 random byte(s)
+Got: 0x6a 0x03 0x5d 0x39 0xf0 0x5b 0x06 0x4a
+generating 9 random byte(s)
+Got: 0xea 0xde 0xca 0xdb 0x33 0x39 0x9d 0x2c 0xfvel driver test
+This test will display 'Alarm!' every 2 seconds for 4 times
+  Setting clock to   2011-12-13 14:15:57
+Clock valueAlarm!
+main(): This is RIOT! (Version: 2019.10-RC1)
+
+RIOT RTC low-level driver test
+This test will display 'Alarm!' every 2 seconds for 4 times
+  Setting clock to   2011-12-13 14:15:57
+Clock value is now   2011-12-13 14:15:57
+  Setting alarm to   2011-12-13 14:15:59
+   Alarm is set to   2011-12-13 14:15:59
+
+Alarm!
+Alarm!
+Alarm!
+Alarm!
+

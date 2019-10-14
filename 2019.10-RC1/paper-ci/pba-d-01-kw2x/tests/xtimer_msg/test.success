@@ -1,0 +1,66 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-pba-d-01-kw2x" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-pba-d-01-kw2x
+Welcome to pyterm!
+Type '/exit' to exit.
+sec=1 min=0 hour=0
+now=2:10072 -> every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+main(): This is RIOT! (Version: 2019.10-RC1)
+This is thread 3
+sending 1st msg
+now=0:6767 -> every 2.0s: Hello World
+sending 2nd msg
+now=0:11453 -> every 5.0s: This is a Test
+This is thread 4
+sec=1 min=0 hour=0
+now=2:10072 -> every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+now=4:13419 -> every 2.0s: Hello World
+sec=4 min=0 hour=0
+now=5:15105 -> every 5.0s: This is a Test
+sec=5 min=0 hour=0
+now=6:16773 -> every 2.0s: Hello World
+sec=6 min=0 hour=0
+sec=7 min=0 hour=0
+now=8:20119 -> every 2.0s: Hello World
+sec=8 min=0 hour=0
+sec=9 min=0 hour=0
+now=10:18715 -> every 5.0s: This is a Test
+now=10:23473 -> every 2.0s: Hello World
+sec=10 min=0 hour=0
+sec=11 min=0 hour=0
+now=12:26914 -> every 2.0s: Hello World
+sec=12 min=0 hour=0
+sec=13 min=0 hour=0
+now=14:30355 -> every 2.0s: Hello World
+sec=14 min=0 hour=0
+now=15:22419 -> every 5.0s: This is a Test
+sec=15 min=0 hour=0
+now=16:33796 -> every 2.0s: Hello World
+sec=16 min=0 hour=0
+sec=17 min=0 hour=0
+now=18:37237 -> every 2.0s: Hello World
+sec=18 min=0 hour=0
+sec=19 min=0 hour=0
+now=20:26124 -> every 5.0s: This is a Test
+now=20:40679 -> every 2.0s: Hello World
+sec=20 min=0 hour=0
+sec=21 min=0 hour=0
+now=22:44119 -> every 2.0s: Hello World
+sec=22 min=0 hour=0
+sec=23 min=0 hour=0
+now=24:47560 -> every 2.0s: Hello World
+sec=24 min=0 hour=0
+now=25:29828 -> every 5.0s: This is a Test
+sec=25 min=0 hour=0
+now=26:51001 -> every 2.0s: Hello World
+sec=26 min=0 hour=0
+sec=27 min=0 hour=0
+now=28:54442 -> every 2.0s: Hello World
+sec=28 min=0 hour=0
+sec=29 min=0 hour=0
+now=30:33532 -> every 5.0s: This is a Test
+

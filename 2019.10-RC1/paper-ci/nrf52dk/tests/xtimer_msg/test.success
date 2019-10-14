@@ -1,0 +1,66 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-nrf52dk" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-nrf52dk
+Welcome to pyterm!
+Type '/exit' to exit.
+sec=1 min=0 hour=0
+now=2:10294 -> every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+main(): This is RIOT! (Version: 2019.10-RC1)
+This is thread 3
+sending 1st msg
+now=0:6923 -> every 2.0s: Hello World
+sending 2nd msg
+now=0:11692 -> every 5.0s: This is a Test
+This is thread 4
+sec=1 min=0 hour=0
+now=2:10294 -> every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+now=4:13752 -> every 2.0s: Hello World
+sec=4 min=0 hour=0
+now=5:15409 -> every 5.0s: This is a Test
+sec=5 min=0 hour=0
+now=6:17210 -> every 2.0s: Hello World
+sec=6 min=0 hour=0
+sec=7 min=0 hour=0
+now=8:20668 -> every 2.0s: Hello World
+sec=8 min=0 hour=0
+sec=9 min=0 hour=0
+now=10:19125 -> every 5.0s: This is a Test
+now=10:24127 -> every 2.0s: Hello World
+sec=10 min=0 hour=0
+sec=11 min=0 hour=0
+now=12:27671 -> every 2.0s: Hello World
+sec=12 min=0 hour=0
+sec=13 min=0 hour=0
+now=14:31215 -> every 2.0s: Hello World
+sec=14 min=0 hour=0
+now=15:22936 -> every 5.0s: This is a Test
+sec=15 min=0 hour=0
+now=16:34760 -> every 2.0s: Hello World
+sec=16 min=0 hour=0
+sec=17 min=0 hour=0
+now=18:38304 -> every 2.0s: Hello World
+sec=18 min=0 hour=0
+sec=19 min=0 hour=0
+now=20:26747 -> every 5.0s: This is a Test
+now=20:41848 -> every 2.0s: Hello World
+sec=20 min=0 hour=0
+sec=21 min=0 hour=0
+now=22:45393 -> every 2.0s: Hello World
+sec=22 min=0 hour=0
+sec=23 min=0 hour=0
+now=24:48937 -> every 2.0s: Hello World
+sec=24 min=0 hour=0
+now=25:30558 -> every 5.0s: This is a Test
+sec=25 min=0 hour=0
+now=26:52482 -> every 2.0s: Hello World
+sec=26 min=0 hour=0
+sec=27 min=0 hour=0
+now=28:56026 -> every 2.0s: Hello World
+sec=28 min=0 hour=0
+sec=29 min=0 hour=0
+now=30:34369 -> every 5.0s: This is a Test
+

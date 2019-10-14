@@ -1,0 +1,18 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-stm32f3discovery" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-stm32f3discovery
+Welcome to pyterm!
+Type '/exit' to exit.
+- light up all LEDs to 33%.
+- light up all LEDs to 66%.
+- light up all LEDs to 100%.
+- turn off all LEDs
+main(): This is RIOT! (Version: 2019.10-RC1)
+[START]
+- light up all LEDs one by one.
+- light up all LEDs to 33%.
+- light up all LEDs to 66%.
+- light up all LEDs to 100%.
+- turn off all LEDs
+[SUCCESS]
+

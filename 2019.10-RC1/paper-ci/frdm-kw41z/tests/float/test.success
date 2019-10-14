@@ -1,0 +1,11 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-kw41z" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-kw41z
+Welcome to pyterm!
+Type '/exit' to exit.
+W7c�6@DFf�"FFw�6RDFf� �c�w��FD7c�vPDF�׳�� w7c�HP3��f�"D7c6�F���Wc��Fw7c6AFMw�vPw��FDj�BLs[SUCCESS]
+main(): This is RIOT! (Version: 2019.10-RC1)
+Testing floating point arithmetics...
+
+[SUCCESS]
+

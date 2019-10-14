@@ -1,0 +1,20 @@
+ifconfig
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-pba-d-01-kw2x" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-pba-d-01-kw2x
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+Welcome to RIOT!
+>  ifconfig
+Iface  3  HWaddr: 23:2A  Channel: 26  NID: 0x23
+          Long HWaddr: 0E:46:6E:50:7D:D4:23:2A 
+           TX-Power: 0dBm  State: IDLE 
+          AUTOACK  ACK_REQ  AUTOCCA
+          L2-PDU:102 Source address length: 2
+          
+          Statistics for Layer 2
+            RX packets 0  bytes 0
+            TX packets 0 (Multicast: 0)  bytes 0
+            TX succeeded 0 errors 0
+

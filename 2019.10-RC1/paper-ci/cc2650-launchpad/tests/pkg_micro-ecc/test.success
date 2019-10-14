@@ -1,0 +1,26 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+--------
+SUCCESS
+
+Test 2
+Coordinates and unix time
+---------------------------------
+- Writing coordinates: -33.905052, 151.26641
+- Writing unix time: 1467632413
+- Encoded:  64 a6 fa fd 6a 24 04 09 1d 4b 7a 57
+- Expected: 64 a6 fa fd 6a 24 04 09 1d 4b 7a 57
+---------------------------------
+SUCCESS
+main(): This is RIOT! (Version: 2019.10-RC1)
+micro-ecc compiled!
+Testing 16 random private key pairs and signature without using HWRNG
+main(): This is RIOT! (Version: 2019.10-RC1)
+micro-ecc compiled!
+Testing 16 random private key pairs and signature without using HWRNG
+................ done with 0 error(s)
+SUCCESS
+

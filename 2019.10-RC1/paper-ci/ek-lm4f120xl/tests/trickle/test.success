@@ -1,0 +1,33 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-ek-lm4f120xl" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-ek-lm4f120xl
+Welcome to pyterm!
+Type '/exit' to exit.
+now = 417702, t = 227
+now = 833226, t = 394
+now = 1754750, t = 819
+[TRICKLE_RESET]
+now = 1766385, t = 11
+now = 1787909, t = 16
+now = 1848433, t = 44
+now = 1975957, t = 107
+now = 2249569, t = 252
+now = 2663181, t = 409
+random: NO SEED AVAILABLE!
+main(): This is RIOT! (Version: 2019.10-RC1)
+[START]
+now = 61918, t = 58
+now = 143266, t = 77
+now = 417702, t = 227
+now = 833226, t = 394
+now = 1754750, t = 819
+[TRICKLE_RESET]
+now = 1766385, t = 11
+now = 1787909, t = 16
+now = 1848433, t = 44
+now = 1975957, t = 107
+now = 2249569, t = 252
+now = 2663181, t = 409
+now = 3670793, t = 904
+[SUCCESS]
+

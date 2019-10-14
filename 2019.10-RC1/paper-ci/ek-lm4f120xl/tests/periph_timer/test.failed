@@ -1,0 +1,32 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/periph_timer test
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-ek-lm4f120xl" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-ek-lm4f120xl
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+
+Test for peripheral TIMERs
+
+Available timers: 2
+
+Testing TIMER_0:
+TIMER_0: initialization successful
+TIMER_0: stopped
+TIMER_0: set channel 0 to 5000
+TIMER_0: set channel 1 to 10000
+TIMER_0: set channel 2 to 15000
+TIMER_0: set channel 3 to 20000
+TIMER_0: set channel 4 to 25000
+TIMER_0: set channel 5 to 30000
+TIMER_0: set channel 6 to 35000
+TIMER_0: set channel 7 to 40000
+TIMER_0: set channel 8 to 45000
+TIMER_0: set channel 9 to 50000
+TIMER_0: starting
+Timeout in expect script at "child.expect_exact('Testing TIMER_{}'.format(timer))" (tests/periph_timer/tests/01-run.py:17)
+
+/srv/ilab-builds/workspace/git/RIOT/tests/periph_timer/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

@@ -1,0 +1,41 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+4
+thread(): waiting for 0x2 && 0x4...
+main(): setting flag 0x0001
+main(): setting flag 0x0008
+main(): setting flag 0x0002
+main(): setting flag 0x0004
+thread(): received flags: 0x0006
+thread(): waiting for any flag, one by one
+thread(): received flags: 0x0001
+thread(): waiting for any flag, one by one
+thread(): received flags: 0x0008
+main: setting 100ms timeout...
+main: timeout triggered. time passed: 100027us
+SUCCESS
+main(): This is RIOT! (Version: 2019.10-RC1)
+START
+thread(): waiting for 0x1...
+main(): setting flag 0x0001
+thread(): received flags: 0x0001
+thread(): waiting for 0x1 || 0x64...
+main(): setting flag 0x0064
+thread(): received flags: 0x0064
+thread(): waiting for 0x2 && 0x4...
+main(): setting flag 0x0001
+main(): setting flag 0x0008
+main(): setting flag 0x0002
+main(): setting flag 0x0004
+thread(): received flags: 0x0006
+thread(): waiting for any flag, one by one
+thread(): received flags: 0x0001
+thread(): waiting for any flag, one by one
+thread(): received flags: 0x0008
+main: setting 100ms timeout...
+main: timeout triggered. time passed: 100021us
+SUCCESS
+

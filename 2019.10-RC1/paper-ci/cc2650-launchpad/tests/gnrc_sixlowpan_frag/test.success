@@ -1,0 +1,20 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+00  00  00  00
+~~ SNIP  3 - size:  16 byte, type: NETTYPE_UNDEF (0)
+00000000  01  02  02  00  00  FF  FE  00  00  01  00  00  00  00  00  00
+~~ PKT    -  4 snips, total size:  72 byte
+PKTDUMP: data to send:
+~~ SNIP  0 - size:   8 byte, type: NETTYPE_NETIF (-1)
+if_pid: 7  rssi: 0  lqi: 0
+flags: MULTICAST 
+src_l2addr: (nil)
+dst_l2addr: (nil)
+~~ SNIP  1 - size:  40 byte, type: NETTYPE_IPV6 (2)
+traffic class: 0x00 (ECN: 0x0, DSCP: 0x00)
+flow label...........
+OK (11 tests)
+

@@ -1,0 +1,41 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+: create thread, arg: 7
+MAIN: msg to T-9
+T-09: alive
+T-09: got arg 7
+MAIN: create thread, arg: 8
+MAIN: msg to T-10
+T-10: alive
+T-10: got arg 8
+MAIN: create thread, arg: 9
+MAIN: msg to T-11
+T-11: alive
+T-11: got arg 9
+MAIN: create thread, arg: 10
+MAIN: msg to T-12
+T-12: alive
+T-12: got arg 10
+MAIN: create thread, arg: 11
+MAIN: msg to T-13
+T-13: alive
+T-13: got arg 11
+MAIN: create thread, arg: 12
+MAIN: msg to T-14
+T-14: alive
+T-14: got arg 12
+MAIN: reply from T-3
+MAIN: reply from T-4
+MAIN: reply frommain(): This is RIOT! (Version: 2019.10-RC1)
+main: starting
+main: exiting
+2nd: starting
+3rd: starting
+3rd: exiting
+2nd: exiting
+4th: starting
+4th: exiting
+

@@ -1,0 +1,62 @@
+socat - open:/dev/riot/tty-cc2650-launchpad,b115200,echo=0,raw
+main(): This is RIOT! (Version: 2019.10-RC1)
+The output should be: yield 1, snd_thread running, yield 2, done
+----------------------------------------------------------------
+yield 1
+snd_thread running
+yield 2
+done
+main(): This is RIOT! (Version: 2019.10-RC1)
+test_shell.
+> start_test
+main(): This is RIOT! (Version: 2019.10-RC1)
+test_shell.
+> start_test
+[TEST_START]end_test
+
+> end_test
+[TEST_END]
+> 
+
+123456789012345678901234567890123456789012345678901234567890
+
+> 
+> 123456789012345678901234567890123456789012345678901234567890
+shell: command not found: 123456789012345678901234567890123456789012345678901234567890
+> unknown_command
+unknown_command
+shell: command not found: unknown_command
+> help
+help
+Command              Description
+---------------------------------------
+start_test           starts a test
+end_test             ends a test
+echo                 prints the input command
+reboot               Reboot the node
+ps                   Prints information about running threads.
+app_metadata         Returns application metadata
+>echo a string
+ echo a string
+"echo""a""string"ps
+
+> ps
+	pid | state    Q | pri 
+	  1 | pending  Q |  15
+	  2 | running  Q |   7
+> garbage1234
+help
+garbage1234
+> 
+> help
+Command              Description
+---------------------------------------
+start_test           starts a test
+end_test             ends a test
+echo                 prints the input command
+reboot               Reboot the node
+ps                   Prints information about running threads.
+app_metadata         Returns application metadata
+>reboot
+ rebootmain(): This is RIOT! (Version: 2019.10-RC1)
+test_shell.

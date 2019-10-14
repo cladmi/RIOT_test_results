@@ -1,0 +1,38 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-k64f" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-k64f
+Welcome to pyterm!
+Type '/exit' to exit.
+  0.000us per call  ---  3567587328 calls per sec
+        mutex lock/unlock:   1350001us  ---   1.350us per call  ---     740740 calls per sec
+
+       thread_flags_set():    716668us  ---   0.716us per call  ---    1395346 calls per sec
+     thread_flags_clear():    7833alls per sec
+
+[SUCCESS]
+main(): This is RIOT! (Version: 2019.10-RC1)
+Runtime of Selected Core API functions
+
+                 no        mutex lock/unlock:   1350001us  ---   1.350us per call  ---     740740 calls per sec
+
+       thread_flags_set():    716668us  ---   0.716us per call  ---    1395346 calls per sec
+     thread_flags_clear():    783334us  ---   0.783us per call  ---    1276594 calls per sec
+main(): This is RIOT! (Version: 2019.10-RC1)
+Runtime of Selected Core API functions
+
+                 nop loop:     66667us  ---   0.066us per call  ---   14999925 calls per sec
+
+             mutex_init():         1us  ---   0.000us per call  ---  3567587328 calls per sec
+        mutex lock/unlock:   1350001us  ---   1.350us per call  ---     740740 calls per sec
+
+       thread_flags_set():    716668us  ---   0.716us per call  ---    1395346 calls per sec
+     thread_flags_clear():    783334us  ---   0.783us per call  ---    1276594 calls per sec
+thread flags set/wait any:   2600000us  ---   2.600us per call  ---     384615 calls per sec
+thread flags set/wait all:   1950001us  ---   1.950us per call  ---     512820 calls per sec
+thread flags set/wait one:   2600001us  ---   2.600us per call  ---     384615 calls per sec
+
+        msg_try_receive():   1200001us  ---   1.200us per call  ---     833332 calls per sec
+              msg_avail():    283334us  ---   0.283us per call  ---    3529403 calls per sec
+
+[SUCCESS]
+

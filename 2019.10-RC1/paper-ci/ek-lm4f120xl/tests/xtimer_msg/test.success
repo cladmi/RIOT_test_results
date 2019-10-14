@@ -1,0 +1,66 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-ek-lm4f120xl" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-ek-lm4f120xl
+Welcome to pyterm!
+Type '/exit' to exit.
+sec=1 min=0 hour=0
+now=2:8788 -> every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+main(): This is RIOT! (Version: 2019.10-RC1)
+This is thread 3
+sending 1st msg
+now=0:5468 -> every 2.0s: Hello World
+sending 2nd msg
+now=0:10154 -> every 5.0s: This is a Test
+This is thread 4
+sec=1 min=0 hour=0
+now=2:8788 -> every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+now=4:10757 -> every 2.0s: Hello World
+sec=4 min=0 hour=0
+now=5:13821 -> every 5.0s: This is a Test
+sec=5 min=0 hour=0
+now=6:12815 -> every 2.0s: Hello World
+sec=6 min=0 hour=0
+sec=7 min=0 hour=0
+now=8:14873 -> every 2.0s: Hello World
+sec=8 min=0 hour=0
+sec=9 min=0 hour=0
+now=10:16143 -> every 5.0s: This is a Test
+now=10:18538 -> every 2.0s: Hello World
+sec=10 min=0 hour=0
+sec=11 min=0 hour=0
+now=12:22020 -> every 2.0s: Hello World
+sec=12 min=0 hour=0
+sec=13 min=0 hour=0
+now=14:24168 -> every 2.0s: Hello World
+sec=14 min=0 hour=0
+now=15:18550 -> every 5.0s: This is a Test
+sec=15 min=0 hour=0
+now=16:26312 -> every 2.0s: Hello World
+sec=16 min=0 hour=0
+sec=17 min=0 hour=0
+now=18:28460 -> every 2.0s: Hello World
+sec=18 min=0 hour=0
+sec=19 min=0 hour=0
+now=20:20959 -> every 5.0s: This is a Test
+now=20:30604 -> every 2.0s: Hello World
+sec=20 min=0 hour=0
+sec=21 min=0 hour=0
+now=22:32752 -> every 2.0s: Hello World
+sec=22 min=0 hour=0
+sec=23 min=0 hour=0
+now=24:34896 -> every 2.0s: Hello World
+sec=24 min=0 hour=0
+now=25:23369 -> every 5.0s: This is a Test
+sec=25 min=0 hour=0
+now=26:37042 -> every 2.0s: Hello World
+sec=26 min=0 hour=0
+sec=27 min=0 hour=0
+now=28:39188 -> every 2.0s: Hello World
+sec=28 min=0 hour=0
+sec=29 min=0 hour=0
+now=30:25779 -> every 5.0s: This is a Test
+

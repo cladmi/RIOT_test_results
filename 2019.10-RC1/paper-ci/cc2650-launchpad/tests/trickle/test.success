@@ -1,0 +1,23 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-cc2650-launchpad" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-cc2650-launchpad
+Welcome to pyterm!
+Type '/exit' to exit.
+race condition... [Success]
+main(): This is RIOT! (Version: 2019.10-RC1)
+[START]
+now = 52003, t = 48
+now = 130672, t = 73
+now = 365430, t = 202
+now = 729278, t = 356
+now = 1360125, t = 569
+[TRICKLE_RESET]
+now = 1370078, t = 8
+now = 1395836, t = 16
+now = 1457682, t = 44
+now = 1551528, t = 72
+now = 1838374, t = 229
+now = 2215308, t = 348
+now = 3260242, t = 879
+[SUCCESS]
+

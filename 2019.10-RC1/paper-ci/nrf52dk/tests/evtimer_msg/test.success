@@ -1,0 +1,26 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-nrf52dk" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-nrf52dk
+Welcome to pyterm!
+Type '/exit' to exit.
+At    670 ms received msg 0: "#2 supposed to be 670"
+At   1011 ms received msg 1: "#0 supposed to be 1011"
+At   1511 ms received msg 2: "#1 supposed to be 1511"
+main(): This is RIOT! (Version: 2019.10-RC1)
+Testing generic evtimer
+This should list 2 items
+ev #1 offset=1000
+ev #2 offset=500
+This should list 4 items
+ev #1 offset=659
+ev #2 offset=341
+ev #3 offset=500
+ev #4 offset=2454
+Are the reception times of all 4 msgs close to the supposed values?
+At    670 ms received msg 0: "#2 supposed to be 670"
+.At   1011 ms received msg 1: "#0 supposed to be 1011"
+.At   1511 ms received msg 2: "#1 supposed to be 1511"
+.At   3965 ms received msg 3: "#3 supposed to be 3965"
+.
+All tests successful
+

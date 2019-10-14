@@ -1,0 +1,10 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/shell test
+ESP32_SDK_DIR should be defined as /path/to/esp-idf directory
+ESP32_SDK_DIR is set by default to /opt/esp/esp-idf
+socat - open:/dev/riot/tty-esp32-wroom-32,b115200,echo=0,raw
+Timeout in expect script at "child.expect('test_shell.')" (tests/shell/tests/01-run.py:67)
+
+/srv/ilab-builds/workspace/git/RIOT/tests/shell/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

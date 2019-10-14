@@ -1,0 +1,18 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/pkg_qdsa test
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-msba2" -b "115200" -tg --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-msba2
+Welcome to pyterm!
+Type '/exit' to exit.
+random: NO SEED AVAILABLE!
+main(): This is RIOT! (Version: 2019.10-RC1)
+.
+qDSA_tests.test_qDSA_sign_verify (tests/pkg_qdsa/main.c 58) exp 0 was 1
+
+run 1 failures 1
+Timeout in expect script at "child.expect('OK \(\d+ tests\)', timeout=TIMEOUT)" (tests/pkg_qdsa/tests/01-run.py:17)
+
+/srv/ilab-builds/workspace/git/RIOT/tests/pkg_qdsa/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

@@ -1,0 +1,28 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-ek-lm4f120xl" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-ek-lm4f120xl
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+Lora Serialization test
+
+Test 1
+Temperature and humidity
+---------------------------------
+- Writing temperature: 80.12
+- Writing humidity: 99.99
+- Encoded:  1f 4c 0f 27
+- Expected: 1f 4c 0f 27
+---------------------------------
+SUCCESS
+
+Test 2
+Coordinates and unix time
+---------------------------------
+- Writing coordinates: -33.905052, 151.26641
+- Writing unix time: 1467632413
+- Encoded:  64 a6 fa fd 6a 24 04 09 1d 4b 7a 57
+- Expected: 64 a6 fa fd 6a 24 04 09 1d 4b 7a 57
+---------------------------------
+SUCCESS
+

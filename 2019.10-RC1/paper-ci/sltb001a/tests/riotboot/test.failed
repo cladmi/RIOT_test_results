@@ -1,0 +1,42 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/riotboot test
+expecting slot number 0, app_ver 0
+curslotnr
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-sltb001a" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-sltb001a
+Welcome to pyterm!
+Type '/exit' to exit.
+�main(): This is RIOT! (Version: 2019.10-RC1)
+Hello riotboot!
+You are running RIOT on a(n) sltb001a board.
+This board features a(n) efm32 MCU.
+riotboot_test: running from slot 0
+Image magic_number: 0x544f4952
+Image Version: 0x00000000
+Image start address: 0x00002400
+Header chksum: 0xa57ac1a1
+
+>  curslotnr
+Current slot=0
+> curslothdr
+ curslothdr
+Image magic_number: 0x544f4952
+Image Version: 0x00000000
+Image start address: 0x00002400
+Header chksum: 0xa57ac1a1
+
+> getslotaddr 0
+ getslotaddr 0
+Slot 0 address=0x00002400
+> dumpaddrs
+ dumpaddrs
+slot 0: metadata: 0x2000 image: 0x00002400
+slot 1: metadata: 0x21000 image: 0x00000000
+> 
+compiling /srv/ilab-builds/workspace/git/RIOT/dist/tools/riotboot_gen_hdr/bin/genhdr...
+make: Nothing to be done for 'all'.
+make[1]: *** No rule to make target '/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/bin/sltb001a/tests_riotboot-slot1.bin', needed by '/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/bin/sltb001a/tests_riotboot-slot1.hdr'.  Stop.
+/srv/ilab-builds/workspace/git/RIOT/tests/riotboot/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

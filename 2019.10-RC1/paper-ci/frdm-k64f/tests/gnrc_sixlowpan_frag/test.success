@@ -1,0 +1,20 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-k64f" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-k64f
+Welcome to pyterm!
+Type '/exit' to exit.
+  40 byte, type: NETTYPE_IPV6 (2)
+traffic class: 0x00 (ECN: 0x0, DSCP: 0x00)
+flow label: 0x00000
+length: 40983  next header: 255  hop limit: 255
+source address: fe80::ff:fe00:1
+destination address: ff02::2
+~~ SNIP  2 - size:   8 byte, type: NETTYPE_ICMPV6 (3)
+   type: 133  code:   0
+   cksum: 0x0000
+00000000  00  00  0::ff:fe00:1
+destination address: ff02::2
+~~ SNIP  2 - size:   8 ...........
+OK (11 tests)
+main(): This is RIOT! (Version: 2019.10-RC1)
+

@@ -1,0 +1,31 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-k64f" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-k64f
+Welcome to pyterm!
+Type '/exit' to exit.
+DRAW_PIXEL (5632)
+ucg: UCG_MSG_DRAW_PIXEL (5760)
+ucg: UCG_MSG_DRAW_PIXEL (5888)
+ucg: UCG_MSG_DRAW_PIXEL (6016)
+ucg: UCG_MSG_DRAW_PIXEL (6144)
+ucg: UCG_MSG_DRAW_PIXEL (6272)
+ucg: UCG_MSG_DRAW_PIXEL (6400)
+ucg: UCG_MSG_DRAW_PIXEL (6528)
+ucg: UCG_MSG_DRAW_PIXEL (6656)
+ucg: UCG_MSG_DRAW_PIXCG_MSG_DRAW_PIXEL (8960)
+ucg: UCG_MSG_DRAW_PIXEL (9088)
+ucg: UCGmain(): This is RIOT! (Version: 2019.10-RC1)
+[START]
+>  Translate text of length 30 into Morse code:
+"Hello RIOT-OS!
+This is uMorse."
+>  using aligned encoding:
+.... . ._.. ._.. ___ / ._. .. ___ _ ___ ...
+_ .... .. ... / .. ... / .._ __ ___ ._. ... .
+>  encoded length=52
+>  using compact encoding:
+.... . ._.. ._.. ___ / ._. .. ___ _ ___ ...
+_ .... .. ... / .. ... / .._ __ ___ ._. ... .
+>  encoded length=25
+[SUCCESS]
+

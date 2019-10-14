@@ -1,0 +1,26 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C /srv/ilab-builds/workspace/git/RIOT/tests/gnrc_netif test
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-mulle" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-mulle
+Cannot connect to serial port /dev/riot/tty-mulle: could not open port /dev/riot/tty-mulle: [Errno 2] No such file or directory: '/dev/riot/tty-mulle'
+/srv/ilab-builds/workspace/git/RIOT/Makefile.include:650: recipe for target 'cleanterm' failed
+make[1]: *** [cleanterm] Error 1
+  File "/srv/ilab-builds/workspace/git/RIOT/dist/pythonlibs/testrunner/__init__.py", line 29, in run
+    testfunc(child)
+  File "/srv/ilab-builds/workspace/git/RIOT/tests/gnrc_netif/tests/01-run.py", line 16, in testfunc
+    child.expect(r"OK \(\d+ tests\)")
+  File "/usr/lib/python3/dist-packages/pexpect/spawnbase.py", line 321, in expect
+    timeout, searchwindowsize, async)
+  File "/usr/lib/python3/dist-packages/pexpect/spawnbase.py", line 345, in expect_list
+    return exp.expect_loop(timeout)
+  File "/usr/lib/python3/dist-packages/pexpect/expect.py", line 105, in expect_loop
+    return self.eof(e)
+  File "/usr/lib/python3/dist-packages/pexpect/expect.py", line 50, in eof
+    raise EOF(msg)
+Unexpected end of file in expect script at "child.expect(r"OK \(\d+ tests\)")" (tests/gnrc_netif/tests/01-run.py:16)
+
+Process already stopped
+/srv/ilab-builds/workspace/git/RIOT/tests/gnrc_netif/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

@@ -1,0 +1,13 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-stm32f3discovery" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-stm32f3discovery
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: 2019.10-RC1)
+ARM DSP lib test
+Note: This test is using 32 bit IEEE 754 floating point numbers,(24 bit mantissa, 7 bit exponent)
+Expect roughly 7 decimals precision on the result.
+      dsp:   0.903941760
+reference:   0.903941793931839
+     diff:   0.000000060
+

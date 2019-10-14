@@ -1,0 +1,31 @@
+/srv/ilab-builds/workspace/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/riot/tty-frdm-k64f" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/riot/tty-frdm-k64f
+Welcome to pyterm!
+Type '/exit' to exit.
+d #1, next=2
+Creating thread #2, next=3
+Creating thread #3, next=4
+Creating thread #4, next=0
+>  main(): This is RIOT! (Version: 2019.10-RC1)
+Creating thread #0, next=1
+Creating thread #1, next=2
+Creating thread #2, next=3
+Creating thread #3, next=4
+Creating thread #4, next=0
+
+> help
+ 
+>  help
+Command              Description
+---------------------------------------
+reboot               Reboot the node
+ps                   Prints information about running threads.
+ps
+>  ps
+	pid | name                 | state    Q | pri | stack  ( used) | base addr  | current     | runtime  | switches
+	  - | isr_stack            | -        - |   - |    512 (  132) | 0x1fff0000 | 0x1fff01c8
+	  1 | idle                 | pending  Q |  15 |    256 (  128) | 0x1fff052c | 0x1fff05ac  | 91.674% |       618
+	  2 | main                 | running  Q |   7 |   1536 (  744) | 0x1fff062c | 0x1fff0944  |  2.232% |       261
+	  3 | thread               | bl rx    _ |   6 |   1024 (  388) | 0x1fff0e94 | 0x1fff11d4  |  1.203% |       369
+
