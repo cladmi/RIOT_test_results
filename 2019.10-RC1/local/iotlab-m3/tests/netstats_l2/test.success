@@ -1,0 +1,19 @@
+ifconfig
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyUSB1" -b "500000" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyUSB1
+Welcome to pyterm!
+Type '/exit' to exit.
+�main(): This is RIOT! (Version: buildtest)
+Welcome to RIOT!
+>  ifconfig
+Iface  3  HWaddr: BD:22  Channel: 26  Page: 0  NID: 0x23
+          Long HWaddr: 15:11:6B:10:65:FE:BD:22 
+           TX-Power: 0dBm  State: IDLE  max. Retrans.: 3  CSMA Retries: 4 
+          AUTOACK  ACK_REQ  CSMA  L2-PDU:102 Source address length: 2
+          
+          Statistics for Layer 2
+            RX packets 0  bytes 0
+            TX packets 0 (Multicast: 0)  bytes 0
+            TX succeeded 0 errors 0
+

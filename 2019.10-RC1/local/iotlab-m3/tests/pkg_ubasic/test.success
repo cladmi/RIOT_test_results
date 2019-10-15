@@ -1,0 +1,12 @@
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyUSB1" -b "500000" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyUSB1
+Welcome to pyterm!
+Type '/exit' to exit.
+�main(): This is RIOT! (Version: buildtest)
+Running test #1... done. Run time: 0.000 s
+Running test #2... done. Run time: 0.000 s
+Running test #3... done. Run time: 0.000 s
+Running test #4... done. Run time: 0.000 s
+Running test #5... done. Run time: 0.000 s
+

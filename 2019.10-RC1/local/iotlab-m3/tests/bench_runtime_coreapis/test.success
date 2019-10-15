@@ -1,0 +1,28 @@
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyUSB1" -b "500000" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyUSB1
+Welcome to pyterm!
+Type '/exit' to exit.
+        mutex lock/unlock: 4294949989us  ---  4294.949us per call  ---        232 calls per sec
+
+       thread_flags_set():      5236us  ---   0.005us per call  ---  190985485 calls per sec
+     thread_flags_clear():     16961us  ---   0.016us per call  ---   58958787 calls per sec
+�main(): This is RIOT! (Version: buildtest)
+Runtime of Selected Core API functions
+
+                 nop loop:     17798us  ---   0.017us per call  ---   56186088 calls per sec
+
+             mutex_init():         1us  ---   0.000us per call  ---  3567587328 calls per sec
+        mutex lock/unlock: 4294949989us  ---  4294.949us per call  ---        232 calls per sec
+
+       thread_flags_set():      5236us  ---   0.005us per call  ---  190985485 calls per sec
+     thread_flags_clear():     16960us  ---   0.016us per call  ---   58962264 calls per sec
+thread flags set/wait any:     19613us  ---   0.019us per call  ---   50986590 calls per sec
+thread flags set/wait all: 4294917464us  ---  4294.917us per call  ---        232 calls per sec
+thread flags set/wait one:     47392us  ---   0.047us per call  ---   21100607 calls per sec
+
+        msg_try_receive(): 4294956061us  ---  4294.956us per call  ---        232 calls per sec
+              msg_avail(): 4294925212us  ---  4294.925us per call  ---        232 calls per sec
+
+[SUCCESS]
+

@@ -1,0 +1,66 @@
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyACM0" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyACM0
+Welcome to pyterm!
+Type '/exit' to exit.
+sec=1 min=0 hour=0
+now=2:10433 -> every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+main(): This is RIOT! (Version: buildtest)
+This is thread 3
+sending 1st msg
+now=0:6931 -> every 2.0s: Hello World
+sending 2nd msg
+now=0:11829 -> every 5.0s: This is a Test
+This is thread 4
+sec=1 min=0 hour=0
+now=2:10433 -> every 2.0s: Hello World
+sec=2 min=0 hour=0
+sec=3 min=0 hour=0
+now=4:14026 -> every 2.0s: Hello World
+sec=4 min=0 hour=0
+now=5:15684 -> every 5.0s: This is a Test
+sec=5 min=0 hour=0
+now=6:17619 -> every 2.0s: Hello World
+sec=6 min=0 hour=0
+sec=7 min=0 hour=0
+now=8:21212 -> every 2.0s: Hello World
+sec=8 min=0 hour=0
+sec=9 min=0 hour=0
+now=10:19541 -> every 5.0s: This is a Test
+now=10:24806 -> every 2.0s: Hello World
+sec=10 min=0 hour=0
+sec=11 min=0 hour=0
+now=12:28488 -> every 2.0s: Hello World
+sec=12 min=0 hour=0
+sec=13 min=0 hour=0
+now=14:32171 -> every 2.0s: Hello World
+sec=14 min=0 hour=0
+now=15:23487 -> every 5.0s: This is a Test
+sec=15 min=0 hour=0
+now=16:35854 -> every 2.0s: Hello World
+sec=16 min=0 hour=0
+sec=17 min=0 hour=0
+now=18:39538 -> every 2.0s: Hello World
+sec=18 min=0 hour=0
+sec=19 min=0 hour=0
+now=20:27433 -> every 5.0s: This is a Test
+now=20:43222 -> every 2.0s: Hello World
+sec=20 min=0 hour=0
+sec=21 min=0 hour=0
+now=22:46907 -> every 2.0s: Hello World
+sec=22 min=0 hour=0
+sec=23 min=0 hour=0
+now=24:50593 -> every 2.0s: Hello World
+sec=24 min=0 hour=0
+now=25:31382 -> every 5.0s: This is a Test
+sec=25 min=0 hour=0
+now=26:54279 -> every 2.0s: Hello World
+sec=26 min=0 hour=0
+sec=27 min=0 hour=0
+now=28:57964 -> every 2.0s: Hello World
+sec=28 min=0 hour=0
+sec=29 min=0 hour=0
+now=30:35331 -> every 5.0s: This is a Test
+

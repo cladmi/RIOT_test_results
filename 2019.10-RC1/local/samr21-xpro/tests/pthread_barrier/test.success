@@ -1,0 +1,61 @@
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyACM0" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyACM0
+Welcome to pyterm!
+Type '/exit' to exit.
+
+======================================
+
+Child 1 sleeps for  1514587 us.
+Child 3 sleeps for  1706397 us.
+Child 4 sleeps for  1265353 us.
+Child 2 sleeps for  2085252 us.
+main(): This is RIOT! (Version: buildtest)
+START
+
+Start 1
+Start 2
+Start 3
+Start 4
+
+======================================
+
+Child 4 sleeps for  1752298 us.
+Child 3 sleeps for  1772042 us.
+Child 2 sleeps for  1287734 us.
+Child 1 sleeps for  2386493 us.
+
+======================================
+
+Child 1 sleeps for  1514587 us.
+Child 3 sleeps for  1706397 us.
+Child 4 sleeps for  1265353 us.
+Child 2 sleeps for  2085252 us.
+
+======================================
+
+Child 2 sleeps for  2406092 us.
+Child 3 sleeps for  2184134 us.
+Child 1 sleeps for   921395 us.
+Child 4 sleeps for   107980 us.
+
+======================================
+
+Child 2 sleeps for    76940 us.
+Child 3 sleeps for  2273767 us.
+Child 1 sleeps for  1868346 us.
+Child 4 sleeps for  1650360 us.
+
+======================================
+
+Child 3 sleeps for  1729994 us.
+Child 1 sleeps for  1288040 us.
+Child 4 sleeps for  2397307 us.
+Child 2 sleeps for   580990 us.
+Done 2
+Done 1
+Done 3
+Done 4
+
+SUCCESS
+

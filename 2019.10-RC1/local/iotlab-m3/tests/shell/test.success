@@ -1,0 +1,55 @@
+socat - open:/dev/ttyUSB1,b500000,echo=0,raw
+�main(): This is RIOT! (Version: buildtest)
+test_shell.
+> start_test
+start_test
+[TEST_START]
+> end_test
+end_test
+[TEST_END]
+> 
+
+123456789012345678901234567890123456789012345678901234567890
+
+> 
+> 123456789012345678901234567890123456789012345678901234567890
+shell: command not found: 123456789012345678901234567890123456789012345678901234567890
+> unknown_command
+unknown_command
+shell: command not found: unknown_command
+> help
+help
+Command              Description
+---------------------------------------
+start_test           starts a test
+end_test             ends a test
+echo                 prints the input command
+reboot               Reboot the node
+ps                   Prints information about running threads.
+app_metadata         Returns application metadata
+> echo a string
+echo a string
+"echo""a""string"
+> ps
+ps
+	pid | state    Q | pri 
+	  1 | pending  Q |  15
+	  2 | running  Q |   7
+> garbage1234
+help
+garbage1234
+> 
+> help
+Command              Description
+---------------------------------------
+start_test           starts a test
+end_test             ends a test
+echo                 prints the input command
+reboot               Reboot the node
+ps                   Prints information about running threads.
+app_metadata         Returns application metadata
+> reboot
+reboot
+�main(): This is RIOT! (Version: buildtest)
+test_shell.
+> 

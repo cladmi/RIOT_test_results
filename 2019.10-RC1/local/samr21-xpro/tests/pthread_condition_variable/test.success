@@ -1,0 +1,27 @@
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyACM0" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyACM0
+Welcome to pyterm!
+Type '/exit' to exit.
+Still alive alternated [count: 10k] times.
+Still alive alternated [count: 20k] times.
+Still alive alternated [count: 30k] times.
+Still alive alternated [count: 40k] times.
+Still alive alternated [count: 50k] times.
+Still alive alternated [count: 60k] times.
+Still alive alternated [count: 70k] times.
+main(): This is RIOT! (Version: buildtest)
+START
+Still alive alternated [count: 10k] times.
+Still alive alternated [count: 20k] times.
+Still alive alternated [count: 30k] times.
+Still alive alternated [count: 40k] times.
+Still alive alternated [count: 50k] times.
+Still alive alternated [count: 60k] times.
+Still alive alternated [count: 70k] times.
+Still alive alternated [count: 80k] times.
+Still alive alternated [count: 90k] times.
+Still alive alternated [count: 100k] times.
+condition fulfilled.
+SUCCESS
+

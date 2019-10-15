@@ -1,0 +1,24 @@
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyACM0" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyACM0
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: buildtest)
+Shell-based test application for heap functions.
+heap
+Use the 'help' command to get more information on how to use it.
+>  heap
+heap: 29612 (used 2500, free 27112) [bytes]
+> malloc 100
+ malloc 100
+allocated 0x20001620
+> heap
+ heap
+heap: 29612 (used 2608, free 27004) [bytes]
+free 0x20001620
+>  free 0x20001620
+freed 0x20001620
+> heap
+ heap
+heap: 29612 (used 2500, free 27112) [bytes]
+

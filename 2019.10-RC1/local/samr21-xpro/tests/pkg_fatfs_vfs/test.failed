@@ -1,0 +1,12 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C ./tests/pkg_fatfs_vfs test
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyACM0" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyACM0
+Welcome to pyterm!
+Type '/exit' to exit.
+Timeout in expect script at "child.expect(u"Tests for FatFs over VFS - test results will be printed in "" (tests/pkg_fatfs_vfs/tests/01-run.py:19)
+
+/home/harter/work/git/RIOT/tests/pkg_fatfs_vfs/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

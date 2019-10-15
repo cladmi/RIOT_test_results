@@ -1,0 +1,42 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C ./tests/riotboot test
+expecting slot number 0, app_ver 0
+curslotnr
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyUSB1" -b "500000" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyUSB1
+Welcome to pyterm!
+Type '/exit' to exit.
+�main(): This is RIOT! (Version: buildtest)
+Hello riotboot!
+You are running RIOT on a(n) iotlab-m3 board.
+This board features a(n) stm32f1 MCU.
+riotboot_test: running from slot 0
+Image magic_number: 0x544f4952
+Image Version: 0x00000000
+Image start address: 0x08001400
+Header chksum: 0x8d7ab9a1
+
+>  curslotnr
+Current slot=0
+> curslothdr
+ curslothdr
+Image magic_number: 0x544f4952
+Image Version: 0x00000000
+Image start address: 0x08001400
+Header chksum: 0x8d7ab9a1
+
+> getslotaddr 0
+ getslotaddr 0
+Slot 0 address=0x08001400
+> dumpaddrs
+ dumpaddrs
+slot 0: metadata: 0x8001000 image: 0x08001400
+slot 1: metadata: 0x8040800 image: 0x00000000
+> 
+compiling /home/harter/work/git/RIOT/dist/tools/riotboot_gen_hdr/bin/genhdr...
+make: Nothing to be done for 'all'.
+make[1]: *** No rule to make target '/home/harter/work/git/RIOT/tests/riotboot/bin/iotlab-m3/tests_riotboot-slot1.bin', needed by '/home/harter/work/git/RIOT/tests/riotboot/bin/iotlab-m3/tests_riotboot-slot1.hdr'.  Stop.
+/home/harter/work/git/RIOT/tests/riotboot/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

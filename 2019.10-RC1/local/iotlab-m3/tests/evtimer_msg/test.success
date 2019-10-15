@@ -1,0 +1,26 @@
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyUSB1" -b "500000" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyUSB1
+Welcome to pyterm!
+Type '/exit' to exit.
+At    662 ms received msg 0: "#2 supposed to be 662"
+At   1003 ms received msg 1: "#0 supposed to be 1003"
+At   1503 ms received msg 2: "#1 supposed to be 1503"
+�main(): This is RIOT! (Version: buildtest)
+Testing generic evtimer
+This should list 2 items
+ev #1 offset=1000
+ev #2 offset=500
+This should list 4 items
+ev #1 offset=659
+ev #2 offset=341
+ev #3 offset=500
+ev #4 offset=2454
+Are the reception times of all 4 msgs close to the supposed values?
+At    662 ms received msg 0: "#2 supposed to be 662"
+.At   1003 ms received msg 1: "#0 supposed to be 1003"
+.At   1503 ms received msg 2: "#1 supposed to be 1503"
+.At   3957 ms received msg 3: "#3 supposed to be 3957"
+.
+All tests successful
+

@@ -1,0 +1,14 @@
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyUSB1" -b "500000" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyUSB1
+Welcome to pyterm!
+Type '/exit' to exit.
+�main(): This is RIOT! (Version: buildtest)
+ARM DSP lib test
+Note: This test is using 32 bit IEEE 754 floating point numbers,(24 bit mantissa, 7 bit exponent)
+Expect roughly 7 decimals precision on the result.
+      dsp:   0.903941760
+reference:   0.903941793931839
+     diff:   0.000000060
+Test done
+

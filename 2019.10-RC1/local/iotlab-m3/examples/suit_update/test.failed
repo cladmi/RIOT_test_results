@@ -1,0 +1,22 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C ./examples/suit_update test
+make -C ethos
+cc -O3 -Wall ethos.c -o ethos
+make -C uhcpd
+mkdir bin
+cc -g -O3 -Wall -DUHCP_SERVER -I/home/harter/work/git/RIOT/sys/include /home/harter/work/git/RIOT/sys/net/application_layer/uhcp/uhcp.c uhcpd.c -o bin/uhcpd
+/bin/sh: 1: exec: aiocoap-fileserver: not found
+make -C ethos
+make[3]: Nothing to be done for 'all'.
+make -C uhcpd
+make[3]: Nothing to be done for 'all'.
+/home/harter/work/git/RIOT/dist/tools/ethos/ethos riot0 /dev/ttyUSB1
+ioctl(TUNSETIFF): Operation not permitted
+/home/harter/work/git/RIOT/Makefile.include:650: recipe for target 'cleanterm' failed
+make[1]: *** [cleanterm] Error 1
+Unexpected end of file in expect script at "child.expect_exact("main(): This is RIOT!")" (examples/suit_update/tests/01-run.py:116)
+
+Process already stopped
+/home/harter/work/git/RIOT/examples/suit_update/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

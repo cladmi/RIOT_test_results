@@ -1,0 +1,24 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C ./tests/gnrc_sock_dns test
+make[1]: Nothing to be done for 'all'.
+Device "tap0" does not exist.
+
+Traceback (most recent call last):
+  File "/home/harter/work/git/RIOT/tests/gnrc_sock_dns/tests/01-run.py", line 318, in <module>
+    sys.exit(run(testfunc, timeout=1, echo=False))
+  File "/home/harter/work/git/RIOT/dist/pythonlibs/testrunner/__init__.py", line 29, in run
+    testfunc(child)
+  File "/home/harter/work/git/RIOT/tests/gnrc_sock_dns/tests/01-run.py", line 276, in testfunc
+    lladdr = get_host_lladdr(tap)
+  File "/home/harter/work/git/RIOT/tests/gnrc_sock_dns/tests/01-run.py", line 117, in get_host_lladdr
+    "lladdr"
+  File "/home/harter/work/git/RIOT/tests/gnrc_sock_dns/tests/01-run.py", line 96, in check_and_search_output
+    output = subprocess.check_output(cmd, *args, **kwargs).decode("utf-8")
+  File "/usr/lib/python3.6/subprocess.py", line 356, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.6/subprocess.py", line 438, in run
+    output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['ip', 'addr', 'show', 'dev', 'tap0', 'scope', 'link']' returned non-zero exit status 1.
+/home/harter/work/git/RIOT/tests/gnrc_sock_dns/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

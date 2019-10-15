@@ -1,0 +1,39 @@
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyUSB1" -b "500000" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyUSB1
+Welcome to pyterm!
+Type '/exit' to exit.
+�main(): This is RIOT! (Version: buildtest)
+
+Test for peripheral TIMERs
+
+Available timers: 2
+
+Testing TIMER_0:
+TIMER_0: initialization successful
+TIMER_0: stopped
+TIMER_0: set channel 0 to 5000
+TIMER_0: set channel 1 to 10000
+TIMER_0: set channel 2 to 15000
+TIMER_0: set channel 3 to 20000
+TIMER_0: starting
+TIMER_0: channel 0 fired at SW count    22500 - init:    22500
+TIMER_0: channel 1 fired at SW count    44988 - diff:    22488
+TIMER_0: channel 2 fired at SW count    67476 - diff:    22488
+TIMER_0: channel 3 fired at SW count    89964 - diff:    22488
+
+Testing TIMER_1:
+TIMER_1: initialization successful
+TIMER_1: stopped
+TIMER_1: set channel 0 to 5000
+TIMER_1: set channel 1 to 10000
+TIMER_1: set channel 2 to 15000
+TIMER_1: set channel 3 to 20000
+TIMER_1: starting
+TIMER_1: channel 0 fired at SW count    22499 - init:    22499
+TIMER_1: channel 1 fired at SW count    44987 - diff:    22488
+TIMER_1: channel 2 fired at SW count    67475 - diff:    22488
+TIMER_1: channel 3 fired at SW count    89963 - diff:    22488
+
+TEST SUCCEEDED
+

@@ -1,0 +1,40 @@
+
+Operating System Environment
+-----------------------------
+       Operating System: "Ubuntu" "18.04.3 LTS (Bionic Beaver)"
+                 Kernel: Linux 4.18.0-25-generic x86_64 x86_64
+
+Installed compiler toolchains
+-----------------------------
+             native gcc: gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0
+      arm-none-eabi-gcc: arm-none-eabi-gcc (GNU Tools for Arm Embedded Processors 7-2018-q2-update) 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907]
+                avr-gcc: avr-gcc (GCC) 5.4.0
+       mips-mti-elf-gcc: missing
+             msp430-gcc: msp430-gcc (GCC) 4.6.3 20120301 (mspgcc LTS 20120406 unpatched)
+   riscv-none-embed-gcc: missing
+   xtensa-esp32-elf-gcc: missing
+   xtensa-lx106-elf-gcc: missing
+                  clang: clang version 6.0.0-1ubuntu2 (tags/RELEASE_600/final)
+
+Installed compiler libs
+-----------------------
+   arm-none-eabi-newlib: "3.0.0"
+    mips-mti-elf-newlib: missing
+riscv-none-embed-newlib: missing
+xtensa-esp32-elf-newlib: missing
+xtensa-lx106-elf-newlib: missing
+               avr-libc: "2.0.0" ("20150208")
+
+Installed development tools
+---------------------------
+                  cmake: cmake version 3.10.2
+               cppcheck: Cppcheck 1.82
+                doxygen: 1.8.13
+                    git: git version 2.17.1
+                   make: GNU Make 4.1
+                openocd: GNU MCU Eclipse 64-bit Open On-Chip Debugger 0.10.0+dev-00462-gdd1d90111 (2019-01-18-11:37)
+                 python: Python 2.7.15+
+                python2: Python 2.7.15+
+                python3: Python 3.6.8
+                 flake8: 3.7.7 (mccabe: 0.6.1, pycodestyle: 2.5.0, pyflakes: 2.1.1) CPython 3.6.8 on Linux
+             coccinelle: spatch version 1.0.4 with Python support and with PCRE support

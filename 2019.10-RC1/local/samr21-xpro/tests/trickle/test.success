@@ -1,0 +1,34 @@
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyACM0" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyACM0
+Welcome to pyterm!
+Type '/exit' to exit.
+now = 361825, t = 174
+now = 870877, t = 441
+now = 1408931, t = 497
+[TRICKLE_RESET]
+now = 1422107, t = 11
+now = 1454160, t = 25
+now = 1503213, t = 40
+now = 1612266, t = 83
+now = 1887320, t = 228
+now = 2274463, t = 357
+now = 2949606, t = 518
+[SUCCESS]
+main(): This is RIOT! (Version: buildtest)
+[START]
+now = 61992, t = 58
+now = 159864, t = 94
+now = 361825, t = 174
+now = 870877, t = 441
+now = 1408931, t = 497
+[TRICKLE_RESET]
+now = 1422106, t = 11
+now = 1454158, t = 25
+now = 1503211, t = 40
+now = 1612264, t = 83
+now = 1887318, t = 228
+now = 2274461, t = 357
+now = 2949604, t = 518
+[SUCCESS]
+

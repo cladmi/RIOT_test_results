@@ -1,0 +1,9 @@
+make RIOT_CI_BUILD=1 CC_NOCOLOR=1 --no-print-directory -C ./tests/gnrc_tcp test
+make[1]: Nothing to be done for 'all'.
+[1;31mThis test requires root privileges.
+It uses `./dist/tools/ethos/start_networking.sh` as term[0m
+
+/home/harter/work/git/RIOT/tests/gnrc_tcp/../../Makefile.include:689: recipe for target 'test' failed
+make: *** [test] Error 1
+
+Return value: 2

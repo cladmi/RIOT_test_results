@@ -1,0 +1,52 @@
+
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyACM0" -b "115200" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyACM0
+Welcome to pyterm!
+Type '/exit' to exit.
+main(): This is RIOT! (Version: buildtest)
+ROM flash read write test
+
+Please refer to the README.md for further information
+
+Flash start addr:	0x00000000
+Page size:		256
+Number of pages:	1024
+> test_last
+ 
+>  test_last
+wrote local page buffer to last flash page
+> help
+ help
+Command              Description
+---------------------------------------
+info                 Show information about pages
+dump                 Dump the selected page to STDOUT
+dump_local           Dump the local page buffer to STDOUT
+read                 Copy the given page to the local page buffer and dump to STDOUT
+write                Write the local page buffer to the given page
+write_raw            Write (ASCII, max 64B) data to the given address
+erase                Erase the given page buffer
+edit                 Write bytes to the local page buffer
+test                 Write and verify test pattern
+test_last            Write and verify test pattern on last page available
+test_last_raw        Write and verify raw short write on last page available
+test_last_raw
+>  test_last_raw
+wrote raw short buffer to last flash page
+> help
+ help
+Command              Description
+---------------------------------------
+info                 Show information about pages
+dump                 Dump the selected page to STDOUT
+dump_local           Dump the local page buffer to STDOUT
+read                 Copy the given page to the local page buffer and dump to STDOUT
+write                Write the local page buffer to the given page
+write_raw            Write (ASCII, max 64B) data to the given address
+erase                Erase the given page buffer
+edit                 Write bytes to the local page buffer
+test                 Write and verify test pattern
+test_last            Write and verify test pattern on last page available
+test_last_raw        Write and verify raw short write on last page available
+> 

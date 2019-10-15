@@ -1,0 +1,26 @@
+/home/harter/work/git/RIOT/dist/tools/pyterm/pyterm -p "/dev/ttyUSB1" -b "500000" --noprefix --no-repeat-command-on-empty-line
+Twisted not available, please install it if you want to use pyterm's JSON capabilities
+Connect to serial port /dev/ttyUSB1
+> Welcome to pyterm!
+Type '/exit' to exit.
+ �main(): This is RIOT! (Version: buildtest)
+Creating thread #0, next=1
+Creating thread #1, next=2
+Creating thread #2, next=3
+Creating thread #3, next=4
+Creating thread #4, next=0
+
+> help
+ 
+>  help
+Command              Description
+---------------------------------------
+reboot               Reboot the node
+ps                   Prints information about running threads.
+> ps
+ ps
+	pid | name                 | state    Q | pri | stack  ( used) | base addr  | current     | runtime  | switches
+	  - | isr_stack            | -        - |   - |    512 (  144) | 0x20000000 | 0x200001c8
+	  1 | idle                 | pending  Q |  15 |    256 (  132) | 0x20000548 | 0x200005c4  | 92.698% |       619
+	  2 | main                 | running  Q |   7 |   1536 (  772) | 0x20000648 | 0x20000954  |  1.025% |       126
+
